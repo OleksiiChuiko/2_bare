@@ -1,0 +1,81 @@
+**************** POWER SUPPLY WIRING INFORMATION *****************
+
+Power Wiring for GR228X and TS12X testers with Alliance Supplies
+Template Ver: 6.2.0
+Generated on: Wed Apr 22 15:51:23 2009
+
+
+Supply voltages should be wired to power buses in the fixture.
+
+			NOTE
+The TestStation GR228X Monitor software development environment
+uses a naming convention that requires any power nodes to begin
+with VCC and any reference nodes to begin with GND. For example;
++5V would be VCC5; -5.2V would be VCCN5_2; GND would be digital
+ground and GNDANA would be analog ground. The Navigate development
+environment allows any net name to be identified as a Power or
+Ground pin simply by clicking on a check box in the Node Editor.
+
+---------------------------------------------------------------------------
+Target Testers with Alliance supplies require:
+
+PS(1)			1.20 Volts	1.00 Amps
+PS(2)			1.80 Volts	1.00 Amps
+PS(3)			2.50 Volts	1.00 Amps
+PS(4)			3.30 Volts	1.00 Amps
+
+
+---------------------------------------------------------------------------
+Power Supply Wiring Information for PS(1):
+1.20 Volt Power Node=VCC_1_2V  1.20 Volt Reference Node=GND
+
+Connect 03-A17 to 1.20 Volt Reference Bus (LO)
+Connect 03-A18 to 1.20 Volt Reference Bus (LO)
+Connect 03-A19 to 1.20 Volt Reference Bus (LO)
+Connect 03-A20 to 1.20 Volt Reference Bus (LO Sense)
+Connect 03-A21 to 1.20 Volt Power Bus (HI Sense)
+Connect 03-A22 to 1.20 Volt Power Bus (HI)
+Connect 03-A23 to 1.20 Volt Power Bus (HI)
+Connect 03-A24 to 1.20 Volt Power Bus (HI)
+
+
+---------------------------------------------------------------------------
+Power Supply Wiring Information for PS(2):
+1.80 Volt Power Node=VCC_1_8V  1.80 Volt Reference Node=GND
+
+Connect 03-A09 to 1.80 Volt Reference Bus (LO)
+Connect 03-A10 to 1.80 Volt Reference Bus (LO)
+Connect 03-A11 to 1.80 Volt Reference Bus (LO)
+Connect 03-A12 to 1.80 Volt Reference Bus (LO Sense)
+Connect 03-A13 to 1.80 Volt Power Bus (HI Sense)
+Connect 03-A14 to 1.80 Volt Power Bus (HI)
+Connect 03-A15 to 1.80 Volt Power Bus (HI)
+Connect 03-A16 to 1.80 Volt Power Bus (HI)
+
+
+---------------------------------------------------------------------------
+Power Supply Wiring Information for PS(3):
+2.50 Volt Power Node=VCC_2_5V  2.50 Volt Reference Node=GND
+
+Connect 03-A01 to 2.50 Volt Reference Bus (LO)
+Connect 03-A02 to 2.50 Volt Reference Bus (LO)
+Connect 03-A03 to 2.50 Volt Reference Bus (LO)
+Connect 03-A04 to 2.50 Volt Reference Bus (LO Sense)
+Connect 03-A05 to 2.50 Volt Power Bus (HI Sense)
+Connect 03-A06 to 2.50 Volt Power Bus (HI)
+Connect 03-A07 to 2.50 Volt Power Bus (HI)
+Connect 03-A08 to 2.50 Volt Power Bus (HI)
+
+
+---------------------------------------------------------------------------
+Power Supply Wiring Information for PS(4):
+3.30 Volt Power Node=VCC_3_3V  3.30 Volt Reference Node=GND
+
+Connect 03-B17 to 3.30 Volt Reference Bus (LO)
+Connect 03-B18 to 3.30 Volt Reference Bus (LO)
+Connect 03-B19 to 3.30 Volt Reference Bus (LO)
+Connect 03-B20 to 3.30 Volt Reference Bus (LO Sense)
+Connect 03-B21 to 3.30 Volt Power Bus (HI Sense)
+Connect 03-B22 to 3.30 Volt Power Bus (HI)
+Connect 03-B23 to 3.30 Volt Power Bus (HI)
+Connect 03-B24 to 3.30 Volt Power Bus (HI)
