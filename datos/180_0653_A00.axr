@@ -6,7 +6,7 @@ For Board 0653D_mezzanine
 
 DEVICE	VALUE AND CONNECTIONS (R)
 
-R1      33.2    ,+  1.0%,-  1.0%,	        
+R1      40.2    ,+  1.0%,-  1.0%,	        
 	MSG = 'LOC=R1, VAL=33.20R, TOL=1'
         1 = F596, 2 = F116
 R10     33.2    ,+  1.0%,-  1.0%,	        
