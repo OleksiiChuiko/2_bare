@@ -1,0 +1,72 @@
+
+		2287 NAIL ASSIGNMENT IN PROGRESS
+
+			Target Machine: 2287
+			Software ID:    nas.exe__494
+			Mode:           NEW
+			Board Name:     0653D_mezzanine
+			Date:           22-APR-09 15:49:41
+
+
+Process:	Copying Input TPG File
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Creating Nail Record File (.VPN)
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Creating Nail Assignment File (.VPR)
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Mapping old nails to new
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Creating Nail Database File (.NDB)
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Updating TPG File
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Copying Input CKT File
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Updating CKT File
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Copying Output CKT File
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Creating Nail Fixture Report File (.NFR)
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Creating Nail Assignment Report File (.NAR)
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Creating Nail Connection Report File (.NCL)
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Updating IDD File
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+Process:	Copying Output TPG File
+        	Process completed:    0 errors detected
+        	                      0 warnings detected
+
+
+			NAIL ASSIGNMENT COMPLETED
+
+			Cumulative errors:     0
+
+			Cumulative warnings:   0

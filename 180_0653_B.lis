@@ -1,0 +1,44 @@
+
+                      TERADYNE 2287 TEST LANGUAGE TRANSLATOR
+
+
+               USER OPTIONS:
+
+                     CONFIGURATION FILE: system
+                     GENERAL WARNINGS ARE NOT DISABLED
+                     TARGET ANALOG SUBSYSTEM IS ICA
+                     DON'T IDENTIFY ICA ONLY TESTS 
+
+sy:180_0653_B.tpg                                       FRI 18-NOV-16 10:04:15 
+
+
+
+                    BEGINNING SYNTAX PASS FOR sy:180_0653_B.tpg
+	 DECLARE GLOBAL COUNT;
+	                     ^
+### WARNING NO. 1 AT LINE 258 (LABEL NONE + 258 IN MAIN)
+### IGNORING DUPLICATE DECLARATION OF GLOBAL VARIABLE
+	DECLARE SYSTEM SPAWN(CSTRING ARG1(150));
+	                                      ^
+### WARNING NO. 2 AT LINE 368 (LABEL NONE + 368 IN MAIN)
+### MULTIPLE DECLARATION OF SUBROUTINE
+	DECLARE SYSTEM GET_MODE(CSTRING ARG1(10));
+	                                        ^
+### WARNING NO. 3 AT LINE 370 (LABEL NONE + 370 IN MAIN)
+### MULTIPLE DECLARATION OF SUBROUTINE
+	DECLARE SYSTEM SERIALNO (CSTRING ARG1(80));
+	                                         ^
+### WARNING NO. 4 AT LINE 371 (LABEL NONE + 371 IN MAIN)
+### MULTIPLE DECLARATION OF SUBROUTINE
+
+                     BEGINNING OBJECT CODE GENERATION PASS
+
+
+                 TERADYNE 2287 TEST LANGUAGE TRANSLATOR tlc.exe__580
+
+          ***TESTS THAT WILL ONLY EXECUTE ON ICA TESTERS:  95
+                       TRANSLATION ERRORS:  0
+                       TRANSLATION WARNINGS:  4
+
+                       ENDED FRI 18-NOV-16 10:04:25 
+                       TRANSLATION TIME: 10.06 Seconds

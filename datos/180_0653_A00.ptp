@@ -1,0 +1,775 @@
+	
+/*** Power Supply Programming Statements generated automatically
+     by GR228X/TestStation software on Wed Apr 22 15:51:23 2009.
+     Template Ver: 6.2.0
+***/
+		
+		
+		
+		
+/*** Subroutines needed for Power Programming ***/
+
+DECLARE SYSTEM CNTRL_C(CSTRING CONTROL(8));
+DECLARE DISCHARGE_POWER();		/** Power Discharge Subroutine */
+DECLARE PWRUP();			/** Power-up Subroutine **/
+DECLARE PWRDN();			/** Power-down Subroutine **/
+
+/*** LOAD Subroutine and LOAD Variables for Power Programming ***/
+
+DECLARE LOAD PROGRAM_INITIALIZATION();	/** Executed at RTS Init **/
+DECLARE LOAD CSTRING GR_TARGET(8);	/** Contains Target Tester **/
+DECLARE LOAD POWER_TYPE;		/** Test for Alliance **/
+
+/*** Global String variables for Power Programming ***/
+
+DECLARE GLOBAL CSTRING CONTROL(8);	   /** For CNTRL_C Sys Sub **/
+DECLARE GLOBAL CSTRING SUPPLY_SETTING(15); /** Voltage Setting **/
+DECLARE GLOBAL CSTRING SUPPLY_NAME(15);    /** Power Supply Name **/
+DECLARE GLOBAL CSTRING UUT_POWER_STATUS(3) = 'OFF';
+
+/*** Declarations needed for BasicSCAN Diagnostics ***/
+
+DECLARE BASSCAN_FAILBIT;		/** BASICSCAN fail bit **/
+DECLARE BASSCAN_FAILCNT;		/** BASICSCAN fail count **/
+DECLARE CSTRING PINNAME(5);             /** Alpha-numeric pin name **/
+
+/*** Translates PINORDER number to Alphanumeric pin name ***/
+DECLARE SYSTEM GET_PINNAME(FLOAT PINORDER, CSTRING PINSTRING(5));  
+DECLARE BSTRING FAIL(1100);
+ENDDEC:
+
+ON ABORT CALL PWRDN();
+
+/*********************************************************/
+/** Call UUT Power-Up Subroutine.			**/
+/*********************************************************/
+
+CALL PWRUP();
+
+IF FAIL(6) THEN BRANCH DDONE;    /* if power up fails
+                                    skip digital tests */
+
+/** Default ASSIGN LOGIC Statement - Modify as needed     **/
+/** or use ATG Merge option to include Assign Lgc Program **/
+
+ASSIGN LGC VCDH=3.5 VCDL=.2 VCST=1.5 VTT=1.5
+           VIHA=3.5 VILA=0.1 VOHA=2.4 VOLA=0.8 LVLA(1-3840);
+
+END_DIGINIT:
+
+
+DDONE:		CALL PWRDN();
+		END;
+		
+SUBROUTINE PROGRAM_INITIALIZATION();
+
+/** This Load Subroutine is executed once during program
+    initialization. It is used to determine and store system 
+    hardware configuration information in system variables 
+    that can then be accessed during UUT Power-up and 
+    Power-down sections... **/
+
+/*********************  NOTE *****************************/
+/** The PROGRAM_INITIALIZATION(), PWRUP(), PWRDN(), and **/
+/** DISCHARGE_POWER() Subroutines contain Test Language **/
+/** Statements that control the Alliance GR228X and     **/
+/** TestStation power supplies.                         **/
+/** The PROGRAM_INITIALIZATION() Subroutine determines  **/
+/** the target tester capabilities at Run-Time          **/
+/** initialization and executes the appropriate         **/
+/** Programming statements based on the target tester   **/
+/** configuration.                                      **/
+/*********************************************************/
+
+/********************* WARNING!! *************************/
+/** "Alliance" PS Power supplies cannot be programmed   **/
+/** to negative voltages. Negative voltages are         **/
+/** obtained by reversing the polarity of the leads in  **/
+/** the test fixture.                                   **/
+/*********************************************************/
+
+/************************ NOTE *****************************
+ This program uses the following 4 
+ power supplies to power up the Unit-Under-Test:
+
+ User Supply Type: PS(1)
+ UUT Power: 1.20 volts, 1.00 amps
+ Power Nodes: VCC_1_2V, GND
+ Power Nails: 4, 3
+
+ User Supply Type: PS(2)
+ UUT Power: 1.80 volts, 1.00 amps
+ Power Nodes: VCC_1_8V, GND
+ Power Nails: 83, 3
+
+ User Supply Type: PS(3)
+ UUT Power: 2.50 volts, 1.00 amps
+ Power Nodes: VCC_2_5V, GND
+ Power Nails: 11, 3
+
+ User Supply Type: PS(4)
+ UUT Power: 3.30 volts, 1.00 amps
+ Power Nodes: VCC_3_3V, GND
+ Power Nails: 12, 3
+
+*********************************************************/
+
+  /** First, Declare local variables and System Subroutines **/
+  DECLARE SYSTEM SYSTYPE(CSTRING TEMP_STRG(8));
+  DECLARE SYSTEM CONFIG(CSTRING ARG1(8), ARG2, ARG3);
+
+  /** Now, Make sure operator cannot ABORT this Subroutine **/
+  CALL CNTRL_C(CONTROL='OFF'); /* disable control C processing */
+
+
+  /** Get Target Tester Type **/
+  GET_TARGET_TYPE:
+  CALL SYSTYPE(TEMP_STRG=GR_TARGET);
+  WRITE ID=MESFILE'Target Tester Type is %S%%NL%'GR_TARGET;
+
+  /** Now find out if the tester has Alliance Supplies.**/
+  /** The variable POWER_TYPE will be set to 0 if the  **/
+  /** target tester has Alliance Supplies, otherwise   **/
+  /** it will be set to the ID of the PS Controller.   **/
+
+  CALL CONFIG(ARG1='PSC', ARG2=1, ARG3=POWER_TYPE);
+
+  /** If the target tester does not have Alliance supplies,
+      then skip the Alliance programming sequence...**/
+
+  IF POWER_TYPE <> 0 THEN [
+    WRITE ID=MESFILE 'Tester does not have Alliance User Supplies!%NL%';
+    WRITE ID=MESFILE 'Skipping Alliance Power-Up Sequence!%NL%';
+    BRANCH END_PS_INITIALIZE;
+  ];
+  
+  LOAD_PS_SEQUENCES:
+
+  /** This section will "load" sequences into the  
+   ** Alliance Power Supply controller. Programming
+   ** the Alliance Supplies using Sequences will
+   ** produce the fastest UUT test throughput 
+   ** because the test programming statements are loaded
+   ** into the Alliance controller only once, at Run-time
+   ** initialization.
+   ** The purpose of each sequence is:
+   **
+   **   SET PS SEQUENCE = 1;    Power up the UUT
+   **   SET PS SEQUENCE = 2;	Power down the UUT
+   **   SET PS SEQUENCE = 3;	Disconnect PS Relays
+   **/
+
+     SEQUENCE1:
+     /** Sequence #1 will TURN ON the power supplies.  Supplies 
+         are turned on in the order they appear within the sequence.
+         Remember, PS supplies cannot be programmed to negative 
+         voltages.  Negative voltages are obtained by wiring 
+         the HIGH output to the negative supply bus and the LOW
+         output to the reference bus.
+      **/
+
+     SET PS START SEQUENCE = 1;
+
+       SET PS(1)  V=1.2  I=1.00 ;
+       SET PS(2)  V=1.8  I=1.00 ;
+       SET PS(3)  V=2.5  I=1.00 ;
+       SET PS(4)  V=3.3  I=1.00 ;
+
+     SET PS END SEQUENCE = 1;
+
+     SEQUENCE2:
+     /** Sequence #2 TURNS OFF the power supplies. Supplies 
+         are powered down in the opposite order in which they
+	 were powered up.
+      **/
+
+     SET PS START SEQUENCE = 2;
+
+       SET PS(4)  V=0.0  I=1.00;
+       SET PS(3)  V=0.0  I=1.00;
+       SET PS(2)  V=0.0  I=1.00;
+       SET PS(1)  V=0.0  I=1.00;
+
+     SET PS END SEQUENCE = 2;
+
+     SEQUENCE3:
+     /** Sequence #3 DISCONNECTS the power supply relays.  
+         It must be preceded by a call to sequence 2 and a 
+         call to DISCHARGE_POWER to ensure that the power nodes 
+         are completely discharged prior to disconnecting 
+         the relays. 
+      **/
+
+     SET PS START SEQUENCE = 3;
+
+       SET PS(4)  DISCONNECT;
+       SET PS(3)  DISCONNECT;
+       SET PS(2)  DISCONNECT;
+       SET PS(1)  DISCONNECT;
+
+     SET PS END SEQUENCE = 3;
+
+
+END_PS_INITIALIZE:
+
+
+  /** Finished Initialization, enable control-C processing **/
+  CALL CNTRL_C(CONTROL='ON');
+
+END SUBROUTINE PROGRAM_INITIALIZATION;
+
+SUBROUTINE PWRUP();
+
+/** This Subroutine is called to Power-up the UUT **/
+
+  DECLARE VVAL1;
+
+  TEST_FOR_POWER:
+  /* Do not execute this Subroutine if UUT is already powered up! */
+  IF UUT_POWER_STATUS = 'ON' THEN RETURN;
+
+  PWRON:  
+  CALL CNTRL_C(CONTROL='OFF'); /* disable control C processing */
+  WRITE 'POWER UP FOR DIGITAL TESTING%NL%';
+  NOLOG; /* disable logging during power up */
+
+  SET PIO(0) HRLY(CLOSE 3);	/* GROUND THE PCB */
+
+
+  CHECK_ID:
+
+  /** If the target tester does not have Alliance supplies,
+      then skip the Alliance programming sequence...**/
+
+  IF POWER_TYPE <> 0 THEN [
+    WRITE ID=MESFILE 'Tester does not have Alliance User Supplies!%NL%';
+    WRITE ID=MESFILE 'Skipping Alliance Power-Up Code!%NL%';
+    BRANCH TEST_POWER;
+  ];
+  
+  ALLIANCE_POWER_UP:
+  /* This section calls the Alliance Power Supply
+     Sequence that will turn on the PS Supplies.
+     To understand what power supply commands are
+     executed by each Sequence, refer to the 
+     Sequence definitions in the PROGRAM
+     INITIALIZATION Load Subroutine.
+  */
+
+  /*** POWER UP SEQUENCE ***/
+  /* Turn on the Alliance power supplies...*/
+  SET PS SEQUENCE = 1;
+
+  TEST_POWER:
+
+  /*** MEASURE OUTPUT VOLTAGE OF ALL POWER SUPPLIES AT THE UUT ***/
+
+   SET MUX AT(CHA=DCMVHI:CHB=DCMVLO); /* Connects Voltage Meter */
+   
+     POWER1: SET SCAN AT(4:3); 
+	  MEAS DCV INTO VVAL1 MAX=1.20 VAL=1.20 TOL=5 RDLY=2M FAIL(6)
+	  [
+	  LET SUPPLY_NAME='PS(1)';
+	  LET SUPPLY_SETTING='1.20 VOLT';
+	  BRANCH PWR_FAIL;
+	  ];
+
+     POWER2: SET SCAN AT(83:3); 
+	  MEAS DCV INTO VVAL1 MAX=1.80 VAL=1.80 TOL=5 RDLY=2M FAIL(6)
+	  [
+	  LET SUPPLY_NAME='PS(2)';
+	  LET SUPPLY_SETTING='1.80 VOLT';
+	  BRANCH PWR_FAIL;
+	  ];
+
+     POWER3: SET SCAN AT(11:3); 
+	  MEAS DCV INTO VVAL1 MAX=2.50 VAL=2.50 TOL=5 RDLY=2M FAIL(6)
+	  [
+	  LET SUPPLY_NAME='PS(3)';
+	  LET SUPPLY_SETTING='2.50 VOLT';
+	  BRANCH PWR_FAIL;
+	  ];
+
+     POWER4: SET SCAN AT(12:3); 
+	  MEAS DCV INTO VVAL1 MAX=3.30 VAL=3.30 TOL=5 RDLY=2M FAIL(6)
+	  [
+	  LET SUPPLY_NAME='PS(4)';
+	  LET SUPPLY_SETTING='3.30 VOLT';
+	  BRANCH PWR_FAIL;
+	  ];
+
+		
+     VCC_2_5V_155M_VDD_MEASUR: SET SCAN AT(13:3); 
+	  MEAS DCV INTO VVAL1 MAX=2.52 VAL=2.52 TOL=5 RDLY=2M FAIL(6)
+	  [
+	  LET SUPPLY_NAME='NO_POWER_SUPPLY';
+	  LET SUPPLY_SETTING='2.52 VOLT';
+	  BRANCH PWR_FAIL;
+	  ];
+
+
+  PWRUP_DONE:
+  
+  /* If program gets here, then power up is OK. */
+  BRANCH PWROK;	
+
+  /****************************************************/
+  /** IF any power supply voltage measurement FAILs, **/
+  /** generate diagnostic message and ABORT testing. **/
+  /** If power is OK, Branch to PWROK.               **/
+  /****************************************************/
+
+  PWR_FAIL:
+  WRITE ID=MESFILE'%NL% %NL%';
+  WRITE ID=MESFILE  '%037%%S%%NL%%036%UUT %S% SUPPLY FAILED.%NL%'
+    SUPPLY_NAME,SUPPLY_SETTING;
+  WRITE ID=MESFILE'VOLTAGE WAS %F%V. %NL%'VVAL1;
+  WRITE ID=MESFILE'TESTING ABORTED. %NL% %035%%NL%';
+
+  PWROK:
+  CLEAR MUX;
+  CLEAR SCAN;
+  LET UUT_POWER_STATUS = 'ON';
+  LOG; /*  re-enable logging */
+  CALL CNTRL_C(CONTROL='ON'); /* enable control C processing */
+
+END SUBROUTINE PWRUP;
+
+SUBROUTINE PWRDN();	/* POWER DOWN ROUTINE */
+
+/** This Subroutine is used to turn UUT Power off. **/
+/** Make sure Logic, Mux, and Scanners are all cleared. **/
+  CLEAR LGC; CLEAR MUX; CLEAR SCAN;
+  
+/** If power is already off, then don't execute this subroutine! **/
+  IF UUT_POWER_STATUS = 'OFF' THEN RETURN;
+
+  PWRD:
+
+  CALL CNTRL_C(CONTROL='OFF'); /* disable control C processing */
+
+
+  CHECK_ID2:
+
+  /** If the target tester does not have Alliance supplies,
+      then skip the Alliance power down sequence...**/
+
+  IF POWER_TYPE <> 0 THEN [
+    WRITE ID=MESFILE 'Tester does not have Alliance User Supplies!%NL%';
+    WRITE ID=MESFILE 'Skipping Alliance Power-Down Code!%NL%';
+    BRANCH ALLIANCE_POWER_OFF;
+  ];
+
+  /*** PROGRAM ALLIANCE POWER SUPPLIES TO ZERO VOLTS ***/
+
+  PS_OFF:
+
+  SET PS SEQUENCE = 2;
+
+  ALLIANCE_POWER_OFF:
+  
+  /** Now that Power is turned off - Discharge any 
+      capacitive voltages on the power nodes... **/
+
+  CALL DISCHARGE_POWER();
+
+
+  OPEN_A_RELAYS:
+  /** If the target tester does not have Alliance supplies,
+      then skip the Open Alliance power Relay sequence...**/
+
+  IF POWER_TYPE <> 0 THEN [
+    WRITE ID=MESFILE 'Tester does not have Alliance User Supplies!%NL%';
+    WRITE ID=MESFILE 'Skipping Alliance Disconnect Code!%NL%';
+    BRANCH PWRDN_MSG;
+  ];
+
+  /* Disconnect the Alliance power supply relays. Please make
+     sure UUT voltages are discharged before executing the
+     following test programming statements. UUT power voltages
+     can be discharged by calling the DISCHARGE_POWER subroutine. */
+
+  PS_OPEN:
+  /** Disconnect Alliance Supplies...**/
+  SET PS SEQUENCE = 3;
+
+  PWRDN_MSG:
+  WRITE'POWER REMOVED FROM PC BOARD.%NL%%NL%';
+  SET PIO(0) HRLY(OPEN 3);	/* GND RLY */
+
+  LET UUT_POWER_STATUS = 'OFF';
+  CALL CNTRL_C(CONTROL='ON'); /* enable control C processing */
+
+END SUBROUTINE PWRDN;
+
+
+SUBROUTINE DISCHARGE_POWER();
+ 
+  /*****************************************************************/
+  /** THIS SUBROUTINE DISCHARGES ANY CAPACITIVE VOLTAGES THAT MAY **/
+  /** BE ON THE UUT POWER NODES AFTER THE POWER SUPPLIES HAVE     **/
+  /** BEEN TURNED OFF AND PRIOR TO OPENING OF THE POWER SUPPLY    **/
+  /** RELAYS. NOTE: THIS DISCHARGE ROUTINE REQUIRES THE           **/
+  /** TESTSTATION OR 228X TESTER TO BE CONFIGURED WITH THE ICA    **/
+  /** ANALOG HARDWARE!                                            **/
+  /*****************************************************************/
+ 
+  /** DECLARE LOCAL VARIABLES USED DURING THIS SUBROUTINE **/
+ 
+  DECLARE CNT;
+  DECLARE VVAL3;
+  DECLARE PASS_NUMBER;
+  DECLARE ALREADY_DISCHARGED;
+  DECLARE MIN_DISCH_V;
+  DECLARE MAX_DISCH_V;
+  DECLARE DISCH_THR;
+  
+  DECLARE POWER_NODE_1 = 0;  /* DISCHARGE VARIABLE 1 */
+  DECLARE POWER_NODE_2 = 0;  /* DISCHARGE VARIABLE 2 */
+  DECLARE POWER_NODE_3 = 0;  /* DISCHARGE VARIABLE 3 */
+  DECLARE POWER_NODE_4 = 0;  /* DISCHARGE VARIABLE 4 */
+  DECLARE POWER_NODE_5 = 0;  /* DISCHARGE VARIABLE 5 */
+ 
+  END_DP_DEC:
+ 
+  WRITE '%033%:M** DISCHARGING UUT POWER NODES%033%:N%NL%';
+  
+  /** MAKE SURE INSTRUMENT MUX AND PIN SCANNER ARE NOT CONNECTED **/
+  CLEAR MUX;
+  CLEAR SCAN;
+   
+  DISCH_INIT:
+   
+  /* DISABLE LOGGING DURING POWER DISCHARGE */
+  NOLOG;
+  USE NOFSUB;
+  
+  /** INITIALIZE VARIABLES THAT WILL BE USED DURING DISCHARGE LOOP **/
+   
+  LET PASS_NUMBER=1;       /* USED TO LOOP THROUGH DISCHARGE ROUTINE */
+  LET ALREADY_DISCHARGED=1;/* USED TO INDICATE VOLTAGE IS DISCHARGED */
+  LET MIN_DISCH_V=40M;     /* MIN DISCHARGE VOLTAGE IS 40 MILLIVOLTS */
+  LET MAX_DISCH_V=60;      /* MAX DISCHARGE VOLTAGE IS 60 VOLTS */
+   
+  /** CONNECT VOLTAGE METER **/
+  SET MUX AT(CHA=DCMVHI:CHB=DCMVLO);
+ 
+ /*****************************************************************/
+ /** THIS IS THE START OF THE DISCHARGE LOOP. DURING THE FIRST   **/
+ /** PASS THE VOLTAGE IS MEASURED ON THE POWER NODES. DURING THE **/
+ /** SECOND PASS, THE 82 OHM RESISTOR IS USED TO DISCHARGE ANY   **/
+ /** NODES THAT EXCEED THE VOLTAGE DISCHARGE THRESHOLD LEVEL.    **/
+ /** DURING THE THIRD, AND FINAL, PASS, THE STM 10 OHM RESISTOR  **/
+ /** IS USED TO DISCHARGE ANY NODES THAT REMAIN ABOVE THE        **/
+ /** DISCHARGE THRESHOLD VOLTAGE. MEASURED VOLTAGES GREATER THAN **/
+ /** 60V CANNOT BE DISCHARGED USING THE STM RESISTORS - THEY     **/
+ /** MUST BE DISCHARGED USING A PROPERLY RATED EXTERNAL RESISTOR **/
+ /** IN THE TEST FIXTURE!                                        **/
+ /*****************************************************************/
+
+ NEXT_DISCHARGE_PASS:
+ 
+ /* USE 1 VOLT THRESHOLD FOR 1ST AND 40MV FOR OTHER PASSES */
+ IF PASS_NUMBER=2 THEN LET DISCH_THR=1;
+ IF PASS_NUMBER>2 THEN LET DISCH_THR=MIN_DISCH_V; 
+ 
+ DIS_PN_1:
+ 
+  /* SKIP IF ALREADY DISCHARGED */
+  IF POWER_NODE_1 = ALREADY_DISCHARGED THEN BRANCH DIS_PN_1_END;
+ 
+  IF PASS_NUMBER = 1 THEN
+    [
+    SET SCAN AT(CHA=4:CHB=3);   /* CONNECT SCANNER */
+    MEAS DCV DCM INTO VVAL3 MAX=60; /* MEASURE VOLTAGE */
+    IF ABS(VVAL3) < MIN_DISCH_V THEN POWER_NODE_1 = ALREADY_DISCHARGED;
+    ELSE
+      [
+      IF ABS(VVAL3) > 60 THEN
+        [
+        WRITE ID=MESFILE 'WARNING:VOLTAGE ACROSS POWER AND GROUND NODES%NL%';
+        WRITE ID=MESFILE 'WAS %F% VOLTS. VOLTAGES > 60V%NL%' VVAL3;
+        WRITE ID=MESFILE 'MUST BE DISCHARGED USING A FIXTURE RESISTOR!%NL%';
+        WRITE ID=MESFILE 'NODES:VCC_1_2V / GND%NL%%NL%';
+        POWER_NODE_1 = ALREADY_DISCHARGED; /* DON'T TRY TO DISCHARGE */
+        ];
+      ]; /* End of ELSE */
+    ]; /* End of IF PASS_NUMBER = 1 */
+    
+  DIS_PN_1_B:
+  IF PASS_NUMBER > 1 THEN
+    [
+    LET CNT = 0; /* Initialize Measurement Count Variable */
+    CLEAR STM;
+    SET SCAN AT(CHA=4:CHB=3);   /* CONNECT SCANNER */
+ 
+    /* USE 82 OHM RESISTOR ON 2nd PASS, 10 OHM ON 3rd PASS */
+    IF PASS_NUMBER = 2 THEN SET STM RLY(1,2,18,20);
+    IF PASS_NUMBER > 2 THEN SET STM RLY(1,2,21,23);
+     
+  MV_PN_1:
+    MEAS DCV DCM INTO VVAL3 LO=-DISCH_THR HI=DISCH_THR DLY=10M MAX=50 FAIL()
+      [
+      LET CNT=CNT+1;
+      IF CNT<50 THEN BRANCH MV_PN_1; /* LOOP UNTIL BELOW THRESHOLD */
+      ];
+ 
+    IF ABS(VVAL3) < MIN_DISCH_V THEN POWER_NODE_1 = ALREADY_DISCHARGED;
+    ELSE
+      [
+      IF PASS_NUMBER = 3 THEN
+        [
+        WRITE ID=MESFILE 'FAILED TO DISCHARGE VOLTAGE BETWEEN%NL%';
+        WRITE ID=MESFILE 'POWER AND GROUND NODES%NL%';
+        WRITE ID=MESFILE 'MEASURED VOLTAGE WAS %F%%NL%%NL%' VVAL3;
+	WRITE ID=MESFILE 'NODES:VCC_1_2V / GND%NL%%NL%';
+        BITSET (FAIL,8);
+        ];
+      ]; /* End ELSE */
+    ]; /* End of IF PASS_NUMBER > 1 */
+  DIS_PN_1_END:
+  
+ DIS_PN_2:
+ 
+  /* SKIP IF ALREADY DISCHARGED */
+  IF POWER_NODE_2 = ALREADY_DISCHARGED THEN BRANCH DIS_PN_2_END;
+ 
+  IF PASS_NUMBER = 1 THEN
+    [
+    SET SCAN AT(CHA=83:CHB=3);   /* CONNECT SCANNER */
+    MEAS DCV DCM INTO VVAL3 MAX=60; /* MEASURE VOLTAGE */
+    IF ABS(VVAL3) < MIN_DISCH_V THEN POWER_NODE_2 = ALREADY_DISCHARGED;
+    ELSE
+      [
+      IF ABS(VVAL3) > 60 THEN
+        [
+        WRITE ID=MESFILE 'WARNING:VOLTAGE ACROSS POWER AND GROUND NODES%NL%';
+        WRITE ID=MESFILE 'WAS %F% VOLTS. VOLTAGES > 60V%NL%' VVAL3;
+        WRITE ID=MESFILE 'MUST BE DISCHARGED USING A FIXTURE RESISTOR!%NL%';
+        WRITE ID=MESFILE 'NODES:VCC_1_8V / GND%NL%%NL%';
+        POWER_NODE_2 = ALREADY_DISCHARGED; /* DON'T TRY TO DISCHARGE */
+        ];
+      ]; /* End of ELSE */
+    ]; /* End of IF PASS_NUMBER = 1 */
+    
+  DIS_PN_2_B:
+  IF PASS_NUMBER > 1 THEN
+    [
+    LET CNT = 0; /* Initialize Measurement Count Variable */
+    CLEAR STM;
+    SET SCAN AT(CHA=83:CHB=3);   /* CONNECT SCANNER */
+ 
+    /* USE 82 OHM RESISTOR ON 2nd PASS, 10 OHM ON 3rd PASS */
+    IF PASS_NUMBER = 2 THEN SET STM RLY(1,2,18,20);
+    IF PASS_NUMBER > 2 THEN SET STM RLY(1,2,21,23);
+     
+  MV_PN_2:
+    MEAS DCV DCM INTO VVAL3 LO=-DISCH_THR HI=DISCH_THR DLY=10M MAX=50 FAIL()
+      [
+      LET CNT=CNT+1;
+      IF CNT<50 THEN BRANCH MV_PN_2; /* LOOP UNTIL BELOW THRESHOLD */
+      ];
+ 
+    IF ABS(VVAL3) < MIN_DISCH_V THEN POWER_NODE_2 = ALREADY_DISCHARGED;
+    ELSE
+      [
+      IF PASS_NUMBER = 3 THEN
+        [
+        WRITE ID=MESFILE 'FAILED TO DISCHARGE VOLTAGE BETWEEN%NL%';
+        WRITE ID=MESFILE 'POWER AND GROUND NODES%NL%';
+        WRITE ID=MESFILE 'MEASURED VOLTAGE WAS %F%%NL%%NL%' VVAL3;
+	WRITE ID=MESFILE 'NODES:VCC_1_8V / GND%NL%%NL%';
+        BITSET (FAIL,8);
+        ];
+      ]; /* End ELSE */
+    ]; /* End of IF PASS_NUMBER > 1 */
+  DIS_PN_2_END:
+  
+ DIS_PN_3:
+ 
+  /* SKIP IF ALREADY DISCHARGED */
+  IF POWER_NODE_3 = ALREADY_DISCHARGED THEN BRANCH DIS_PN_3_END;
+ 
+  IF PASS_NUMBER = 1 THEN
+    [
+    SET SCAN AT(CHA=11:CHB=3);   /* CONNECT SCANNER */
+    MEAS DCV DCM INTO VVAL3 MAX=60; /* MEASURE VOLTAGE */
+    IF ABS(VVAL3) < MIN_DISCH_V THEN POWER_NODE_3 = ALREADY_DISCHARGED;
+    ELSE
+      [
+      IF ABS(VVAL3) > 60 THEN
+        [
+        WRITE ID=MESFILE 'WARNING:VOLTAGE ACROSS POWER AND GROUND NODES%NL%';
+        WRITE ID=MESFILE 'WAS %F% VOLTS. VOLTAGES > 60V%NL%' VVAL3;
+        WRITE ID=MESFILE 'MUST BE DISCHARGED USING A FIXTURE RESISTOR!%NL%';
+        WRITE ID=MESFILE 'NODES:VCC_2_5V / GND%NL%%NL%';
+        POWER_NODE_3 = ALREADY_DISCHARGED; /* DON'T TRY TO DISCHARGE */
+        ];
+      ]; /* End of ELSE */
+    ]; /* End of IF PASS_NUMBER = 1 */
+    
+  DIS_PN_3_B:
+  IF PASS_NUMBER > 1 THEN
+    [
+    LET CNT = 0; /* Initialize Measurement Count Variable */
+    CLEAR STM;
+    SET SCAN AT(CHA=11:CHB=3);   /* CONNECT SCANNER */
+ 
+    /* USE 82 OHM RESISTOR ON 2nd PASS, 10 OHM ON 3rd PASS */
+    IF PASS_NUMBER = 2 THEN SET STM RLY(1,2,18,20);
+    IF PASS_NUMBER > 2 THEN SET STM RLY(1,2,21,23);
+     
+  MV_PN_3:
+    MEAS DCV DCM INTO VVAL3 LO=-DISCH_THR HI=DISCH_THR DLY=10M MAX=50 FAIL()
+      [
+      LET CNT=CNT+1;
+      IF CNT<50 THEN BRANCH MV_PN_3; /* LOOP UNTIL BELOW THRESHOLD */
+      ];
+ 
+    IF ABS(VVAL3) < MIN_DISCH_V THEN POWER_NODE_3 = ALREADY_DISCHARGED;
+    ELSE
+      [
+      IF PASS_NUMBER = 3 THEN
+        [
+        WRITE ID=MESFILE 'FAILED TO DISCHARGE VOLTAGE BETWEEN%NL%';
+        WRITE ID=MESFILE 'POWER AND GROUND NODES%NL%';
+        WRITE ID=MESFILE 'MEASURED VOLTAGE WAS %F%%NL%%NL%' VVAL3;
+	WRITE ID=MESFILE 'NODES:VCC_2_5V / GND%NL%%NL%';
+        BITSET (FAIL,8);
+        ];
+      ]; /* End ELSE */
+    ]; /* End of IF PASS_NUMBER > 1 */
+  DIS_PN_3_END:
+  
+ DIS_PN_4:
+ 
+  /* SKIP IF ALREADY DISCHARGED */
+  IF POWER_NODE_4 = ALREADY_DISCHARGED THEN BRANCH DIS_PN_4_END;
+ 
+  IF PASS_NUMBER = 1 THEN
+    [
+    SET SCAN AT(CHA=13:CHB=3);   /* CONNECT SCANNER */
+    MEAS DCV DCM INTO VVAL3 MAX=60; /* MEASURE VOLTAGE */
+    IF ABS(VVAL3) < MIN_DISCH_V THEN POWER_NODE_4 = ALREADY_DISCHARGED;
+    ELSE
+      [
+      IF ABS(VVAL3) > 60 THEN
+        [
+        WRITE ID=MESFILE 'WARNING:VOLTAGE ACROSS POWER AND GROUND NODES%NL%';
+        WRITE ID=MESFILE 'WAS %F% VOLTS. VOLTAGES > 60V%NL%' VVAL3;
+        WRITE ID=MESFILE 'MUST BE DISCHARGED USING A FIXTURE RESISTOR!%NL%';
+        WRITE ID=MESFILE 'NODES:VCC_2_5V_155M_VDD / GND%NL%%NL%';
+        POWER_NODE_4 = ALREADY_DISCHARGED; /* DON'T TRY TO DISCHARGE */
+        ];
+      ]; /* End of ELSE */
+    ]; /* End of IF PASS_NUMBER = 1 */
+    
+  DIS_PN_4_B:
+  IF PASS_NUMBER > 1 THEN
+    [
+    LET CNT = 0; /* Initialize Measurement Count Variable */
+    CLEAR STM;
+    SET SCAN AT(CHA=13:CHB=3);   /* CONNECT SCANNER */
+ 
+    /* USE 82 OHM RESISTOR ON 2nd PASS, 10 OHM ON 3rd PASS */
+    IF PASS_NUMBER = 2 THEN SET STM RLY(1,2,18,20);
+    IF PASS_NUMBER > 2 THEN SET STM RLY(1,2,21,23);
+     
+  MV_PN_4:
+    MEAS DCV DCM INTO VVAL3 LO=-DISCH_THR HI=DISCH_THR DLY=10M MAX=50 FAIL()
+      [
+      LET CNT=CNT+1;
+      IF CNT<50 THEN BRANCH MV_PN_4; /* LOOP UNTIL BELOW THRESHOLD */
+      ];
+ 
+    IF ABS(VVAL3) < MIN_DISCH_V THEN POWER_NODE_4 = ALREADY_DISCHARGED;
+    ELSE
+      [
+      IF PASS_NUMBER = 3 THEN
+        [
+        WRITE ID=MESFILE 'FAILED TO DISCHARGE VOLTAGE BETWEEN%NL%';
+        WRITE ID=MESFILE 'POWER AND GROUND NODES%NL%';
+        WRITE ID=MESFILE 'MEASURED VOLTAGE WAS %F%%NL%%NL%' VVAL3;
+	WRITE ID=MESFILE 'NODES:VCC_2_5V_155M_VDD / GND%NL%%NL%';
+        BITSET (FAIL,8);
+        ];
+      ]; /* End ELSE */
+    ]; /* End of IF PASS_NUMBER > 1 */
+  DIS_PN_4_END:
+  
+ DIS_PN_5:
+ 
+  /* SKIP IF ALREADY DISCHARGED */
+  IF POWER_NODE_5 = ALREADY_DISCHARGED THEN BRANCH DIS_PN_5_END;
+ 
+  IF PASS_NUMBER = 1 THEN
+    [
+    SET SCAN AT(CHA=12:CHB=3);   /* CONNECT SCANNER */
+    MEAS DCV DCM INTO VVAL3 MAX=60; /* MEASURE VOLTAGE */
+    IF ABS(VVAL3) < MIN_DISCH_V THEN POWER_NODE_5 = ALREADY_DISCHARGED;
+    ELSE
+      [
+      IF ABS(VVAL3) > 60 THEN
+        [
+        WRITE ID=MESFILE 'WARNING:VOLTAGE ACROSS POWER AND GROUND NODES%NL%';
+        WRITE ID=MESFILE 'WAS %F% VOLTS. VOLTAGES > 60V%NL%' VVAL3;
+        WRITE ID=MESFILE 'MUST BE DISCHARGED USING A FIXTURE RESISTOR!%NL%';
+        WRITE ID=MESFILE 'NODES:VCC_3_3V / GND%NL%%NL%';
+        POWER_NODE_5 = ALREADY_DISCHARGED; /* DON'T TRY TO DISCHARGE */
+        ];
+      ]; /* End of ELSE */
+    ]; /* End of IF PASS_NUMBER = 1 */
+    
+  DIS_PN_5_B:
+  IF PASS_NUMBER > 1 THEN
+    [
+    LET CNT = 0; /* Initialize Measurement Count Variable */
+    CLEAR STM;
+    SET SCAN AT(CHA=12:CHB=3);   /* CONNECT SCANNER */
+ 
+    /* USE 82 OHM RESISTOR ON 2nd PASS, 10 OHM ON 3rd PASS */
+    IF PASS_NUMBER = 2 THEN SET STM RLY(1,2,18,20);
+    IF PASS_NUMBER > 2 THEN SET STM RLY(1,2,21,23);
+     
+  MV_PN_5:
+    MEAS DCV DCM INTO VVAL3 LO=-DISCH_THR HI=DISCH_THR DLY=10M MAX=50 FAIL()
+      [
+      LET CNT=CNT+1;
+      IF CNT<50 THEN BRANCH MV_PN_5; /* LOOP UNTIL BELOW THRESHOLD */
+      ];
+ 
+    IF ABS(VVAL3) < MIN_DISCH_V THEN POWER_NODE_5 = ALREADY_DISCHARGED;
+    ELSE
+      [
+      IF PASS_NUMBER = 3 THEN
+        [
+        WRITE ID=MESFILE 'FAILED TO DISCHARGE VOLTAGE BETWEEN%NL%';
+        WRITE ID=MESFILE 'POWER AND GROUND NODES%NL%';
+        WRITE ID=MESFILE 'MEASURED VOLTAGE WAS %F%%NL%%NL%' VVAL3;
+	WRITE ID=MESFILE 'NODES:VCC_3_3V / GND%NL%%NL%';
+        BITSET (FAIL,8);
+        ];
+      ]; /* End ELSE */
+    ]; /* End of IF PASS_NUMBER > 1 */
+  DIS_PN_5_END:
+  
+  
+  DONE_POWER_PASS_NUMBER:
+  
+  /** INCREMENT PASS COUNTER - QUIT AFTER 3 PASSES **/ 
+  
+   PASS_NUMBER = PASS_NUMBER + 1;
+   IF PASS_NUMBER < 4 THEN BRANCH NEXT_DISCHARGE_PASS;
+  
+   DONE_POWER_DISCHARGE:
+  
+   CLEAR MUX;
+   CLEAR STM;
+   CLEAR SCAN;
+  
+   /** ENABLE DATA LOGGING **/
+   LOG;
+
+END SUBROUTINE DISCHARGE_POWER;
+
+

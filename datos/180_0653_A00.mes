@@ -1,0 +1,2798 @@
+
+sy:0653D_mezzanine.obc 27-MAY-09  13:14:45
+
+ Nail: 93	Node: BP_REFCLK_P
+      (J2.C28)  (U5.1 OUT)  (TP_409.1)  
+      (TP_409_1.1)   
+  block 04-A47(EXT)
+
+ Nail: 924	Node: LINE_2_TXDATA_P_3_
+      (J2.A25)  (U2.N1)  (TP_721.1)   
+  block 11-A33(EXT)
+
+ Nail: 931	Node: LINE_2_TXDATA_N_3_
+      (J2.A26)  (U2.N2)  (TP_705.1)   
+  block 11-B24(EXT)
+
+ Nail: 1060	Node: LINE_2_TXDATA_P_11_
+      (J2.C25)  (U2.T3)  (TP_715.1)   
+  block 12-B34(EXT)
+
+ Nail: 1067	Node: LINE_2_TXDATA_N_11_
+      (J2.C26)  (U2.T7)  (TP_699.1)   
+  block 12-A24(EXT)
+
+ Nail: 1145	Node: BP_1_TXDATA_P_1_
+      (J1.F19)  (U4.V20)  (TP_300.1)   
+  block 12-A09(EXT)
+
+ Nail: 1146	Node: BP_1_TXDATA_N_1_
+      (J1.F20)  (U4.V22)  (TP_284.1)   
+  block 12-A19(EXT)
+
+ Nail: 1281	Node: BP_1_TXDATA_P_8_
+      (J1.H16)  (U4.AF24)  (TP_313.1)   
+  block 14-B02(EXT)
+
+ Nail: 1282	Node: BP_1_TXDATA_N_8_
+      (J1.H17)  (U4.AD24)  (TP_297.1)   
+  block 14-B12(EXT)
+
+ Nail: 1443	Node: N_3417
+      (U2.AJ23)  (TP_783.1)   
+  block 15-B24(EXT)
+
+ Nail: 1524	Node: N_3416
+      (U2.V18)  (TP_782.1)   
+  block 15-B39(EXT)
+
+ Nail: 1537	Node: 9186_1_N_9779
+      (U4.F16)  (TP_97.1)   
+  block 16-B02(EXT)
+
+ Nail: 1538	Node: 9186_1_N_6021
+      (U4.AE14)  (TP_74.1)   
+  block 16-B12(EXT)
+
+ Nail: 1539	Node: N_3365
+      (U2.C16)  (TP_780.1)   
+  block 16-B22(EXT)
+
+ Nail: 1540	Node: N_3350
+      (U2.G16)  (TP_773.1)   
+  block 16-B32(EXT)
+
+ Nail: 1545	Node: 9186_1_N_9780
+      (U4.A16)  (TP_98.1)   
+  block 16-A02(EXT)
+
+ Nail: 1546	Node: N_3263
+      (U4.J16)  (TP_761.1)   
+  block 16-A12(EXT)
+
+ Nail: 1547	Node: N_3359
+      (U2.K16)  (TP_774.1)   
+  block 16-A22(EXT)
+
+ Nail: 1548	Node: 9186_2_N_9780
+      (U2.A16)  (TP_208.1)   
+  block 16-A32(EXT)
+
+ Nail: 1553	Node: N_3268
+      (U4.C16)  (TP_766.1)   
+  block 16-B03(EXT)
+
+ Nail: 1554	Node: N_3267
+      (U4.L16)  (TP_765.1)   
+  block 16-B13(EXT)
+
+ Nail: 1555	Node: N_3362
+      (U2.E16)  (TP_777.1)   
+  block 16-B23(EXT)
+
+ Nail: 1556	Node: 9186_2_N_6023
+      (U2.AL16)  (TP_186.1)   
+  block 16-B33(EXT)
+
+ Nail: 1561	Node: N_3347
+      (U4.G16)  (TP_772.1)   
+  block 16-A03(EXT)
+
+ Nail: 1562	Node: 9186_1_N_6010
+      (U4.U18)  (TP_63.1)   
+  block 16-A13(EXT)
+
+ Nail: 1563	Node: N_3366
+      (U2.D16)  (TP_781.1)   
+  block 16-A23(EXT)
+
+ Nail: 1564	Node: N_3360
+      (U2.J16)  (TP_775.1)   
+  block 16-A33(EXT)
+
+ Nail: 1569	Node: N_3265
+      (U4.E16)  (TP_763.1)   
+  block 16-B04(EXT)
+
+ Nail: 1570	Node: N_3262
+      (U4.K16)  (TP_760.1)   
+  block 16-B14(EXT)
+
+ Nail: 1571	Node: N_3364
+      (U2.L16)  (TP_779.1)   
+  block 16-B24(EXT)
+
+ Nail: 1572	Node: 9186_2_N_6021
+      (U2.AE14)  (TP_184.1)   
+  block 16-B34(EXT)
+
+ Nail: 1577	Node: 9186_1_N_6023
+      (U4.AL16)  (TP_76.1)   
+  block 16-A04(EXT)
+
+ Nail: 1578	Node: 9186_1_N_9777
+      (U4.G18)  (TP_95.1)   
+  block 16-A14(EXT)
+
+ Nail: 1579	Node: N_5821
+      (U2.E12)  (TP_794.1)   
+  block 16-A24(EXT)
+
+ Nail: 1580	Node: 9186_2_N_3991
+      (U2.R12)  (TP_156.1)   
+  block 16-A34(EXT)
+
+ Nail: 1585	Node: 9186_1_N_6022
+      (U4.AJ18)  (TP_75.1)   
+  block 16-B05(EXT)
+
+ Nail: 1586	Node: 9186_1_N_6007
+      (U4.R18)  (TP_60.1)   
+  block 16-B15(EXT)
+
+ Nail: 1587	Node: 9186_2_N_3992
+      (U2.P11)  (TP_157.1)   
+  block 16-B25(EXT)
+
+ Nail: 1588	Node: N_5822
+      (U2.A11)  (TP_795.1)   
+  block 16-B35(EXT)
+
+ Nail: 1593	Node: 9186_1_N_9782
+      (U4.L17)  (TP_100.1)   
+  block 16-A05(EXT)
+
+ Nail: 1594	Node: 9186_1_N_9783
+      (U4.J17)  (TP_101.1)   
+  block 16-A15(EXT)
+
+ Nail: 1595	Node: 9186_2_N_3993
+      (U2.M11)  (TP_158.1)   
+  block 16-A25(EXT)
+
+ Nail: 1596	Node: 9186_2_N_3995
+      (U2.F11)  (TP_160.1)   
+  block 16-A35(EXT)
+
+C:\users\gr228x\boards\180_0653_A00\180_0653_a00.obc 28-AUG-09  17:58:17
+
+C:\users\gr228x\boards\180_0653_A00\180_0653_a00.obc 28-AUG-09  17:58:17
+
+C:\users\gr228x\boards\180_0653_A00\180_0653_a00.obc 28-AUG-09  17:58:44
+
+C:\users\gr228x\boards\180_0653_A00\180_0653_a00.obc 28-AUG-09  17:58:44
+** Shorted Nails **
+11,1723;
+
+
+ Nail: 11      Node: VCC_2_5V
+        U2.Y23 U2.Y8 U2.W20 U2.W17
+        U2.W8 U2.V24 U2.V21 U2.V17
+        U2.V7 U2.V6 U2.V1 U2.U23 ++
+
+ Nail: 1723    Node: BP_2_TXCLK_IN_N
+        U2.Y24 ( TP_372.1 U3.6 )
+
+
+ 
+28-AUG-09  17:58:53 
+ BOARD 0GOLDEN FAILED 
+ REL DE PROGRAMA: 100  
+ 
+28-AUG-09  17:58:53 
+ 180.0653V MODULE FAILED
+
+SER #  0GOLDEN
+
+C:\users\gr228x\boards\180_0653_A00\180_0653_a00.obc 10-NOV-09  10:50:34
+
+C:\users\gr228x\boards\180_0653_A00\180_0653_a00.obc 10-NOV-09  10:50:34
+
+C:\users\gr228x\boards\180_0653_A00\180_0653_a00.obc 10-NOV-09  10:50:46
+
+C:\users\gr228x\boards\180_0653_A00\180_0653_a00.obc 10-NOV-09  10:50:46
+U2 
+ (VSC9186)	
+	LOC=U2, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  660: Pin AJ3: Node: 9186_2_N_1437
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+F14 
+U2 
+ (VSC9186)	
+	LOC=U2, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  660: Pin AJ3: Node: 9186_2_N_1437
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+F14 
+U2 
+ (VSC9186)	
+	LOC=U2, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  660: Pin AJ3: Node: 9186_2_N_1437
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+F14 
+U2 
+ (VSC9186)	
+	LOC=U2, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  660: Pin AJ3: Node: 9186_2_N_1437
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+F14 
+U2 
+ (VSC9186)	
+	LOC=U2, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  660: Pin AJ3: Node: 9186_2_N_1437
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+F14 
+U2 
+ (VSC9186)	
+	LOC=U2, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  660: Pin AJ3: Node: 9186_2_N_1437
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+F14 
+
+
+DEVICE LABEL:   U2
+DEVICE NAME:    U2
+DEVICE TYPE:    VSC9186
+
+     Pin               Node           Nail     Max BackDrive
+
+     AG1           9186_2_N_8742       851         245.89 mA
+     AG3           9186_2_N_8741       836         195.82 mA
+     AG5           9186_2_N_8734       820         172.11 mA
+    AG14           9186_2_N_1440       772         169.47 mA
+     AJ5           9186_2_N_8532       827         156.29 mA
+     AL5           9186_2_N_8740       811         198.46 mA
+     AL7           9186_2_N_8531       828         203.73 mA
+     G24           9186_2_N_8735       756         274.88 mA
+     H20           BP_2_REFCLK_P       707          93.05 mA
+
+LOGIC FAMILY A  MAXIMUM BACKDRIVE CURRENT: 274.88 mA
+
+
+
+Test Analysis for U1 (FBGA256)
+Burst duration 2.075259M sec.
+ Pin Type Nail                 Special Drives  Senses  Stuck Ats
+----------------------------------------------------------------------
+*C3    O  F316                                 NSL NSH                         
+*F4    O  F331                                 NSL NSH                         
+*C1    B  F300                         DL  DH  NSL NSH                         
+*C2    B  NOTNAILED            UNUSED                                          
+*D3    B  F115                         DL  DH  NSL NSH                         
+*D4    B  NOTNAILED            UNUSED                                          
+*F3    B  NOTNAILED            UNUSED                                          
+*D2    B  F315                         DL  DH  NSL NSH                         
+*D1    B  F650                         DL  DH  NSL NSH                         
+*E3    B  F618                         DL  DH  NSL NSH                         
+*E4    B  F617                         DL  DH  NSL NSH                         
+*G4    B  F697                         DL  DH  NSL NSH                         
+*E1    B  F681                         DL  DH  NSL NSH                         
+*E2    B  F107                         DL  DH  NSL NSH                         
+*K2    B  F682                         DL  DH  NSL NSH                         
+*K1    B  F658                         DL  DH  NSL NSH                         
+*K4    B  F737                         DL  DH  NSL NSH                         
+*K5    B  F738                         DL  DH  NSL NSH                         
+*L1    B  F714                         DL  DH  NSL NSH                         
+*L2    B  F674                         DL  DH  NSL NSH                         
+*J4    B  NOTNAILED            UNUSED                                          
+*M1    B  F713                         DL  DH  NSL NSH                         
+*M2    B  F308                         DL  DH  NSL NSH                         
+*M3    B  F690                         DL  DH  NSL NSH                         
+*L3    B  F706                         DL  DH  NSL NSH                         
+*N1    B  F100                         DL  DH  NSL NSH                         
+*N2    B  F585                         DL  DH  NSL NSH                         
+*P1    B  F99                          DL  DH  NSL NSH                         
+*P2    B  F92                          DL  DH  NSL NSH                         
+*N3    B  F722                         DL  DH  NSL NSH                         
+*N4    B  F730                         DL  DH  NSL NSH                         
+*P3    B  F291                         DL  DH  NSL NSH                         
+*L4    B  F673                         DL  DH  NSL NSH                         
+*M4    B  F729                         DL  DH  NSL NSH                         
+*R3    B  F323                         DL  DH  NSL NSH                         
+*T3    B  F307                         DL  DH  NSL NSH                         
+*P5    B  F132                         DL  DH  NSL NSH                         
+*P4    B  F108                         DL  DH  NSL NSH                         
+*T4    B  F73                          DL  DH  NSL NSH                         
+*R4    B  F18                          DL  DH  NSL NSH                         
+*T5    B  F17                          DL  DH  NSL NSH                         
+*R5    B  F25                          DL  DH  NSL NSH                         
+*N7    B  F26                          DL  DH  NSL NSH                         
+*T6    B  F244                         DL  DH  NSL NSH                         
+*R6    B  F243                         DL  DH  NSL NSH                         
+*P6    B  F268                         DL  DH  NSL NSH                         
+*N6    B  F267                         DL  DH  NSL NSH                         
+*N8    B  F34                          DL  DH  NSL NSH                         
+*T7    B  F251                         DL  DH  NSL NSH                         
+*R7    B  F252                         DL  DH  NSL NSH                         
+*T8    B  F260                         DL  DH  NSL NSH                         
+*R8    B  F33                          DL  DH  NSL NSH                         
+*T11   B  F10                          DL  DH  NSL NSH                         
+*R11   B  F259                         DL  DH  NSL NSH                         
+*P11   B  F42                          DL  DH  NSL NSH                         
+*R10   B  F1                           DL  DH  NSL NSH                         
+*T10   B  F9                           DL  DH  NSL NSH                         
+*P12   B  F49                          DL  DH  NSL NSH                         
+*P13   B  F65                          DL  DH  NSL NSH                         
+*N11   B  F41                          DL  DH  NSL NSH                         
+*T12   B  F50                          DL  DH  NSL NSH                         
+*R12   B  NOTNAILED            UNUSED                                          
+*T13   B  F2                           DL  DH  NSL NSH                         
+*R13   B  F356                         DL  DH  NSL NSH                         
+*T14   B  F58                          DL  DH  NSL NSH                         
+*R14   B  F642                         DL  DH  NSL NSH                         
+*K13   B  F211                         DL  DH  NSL NSH                         
+*N13   B  F203                         DL  DH  NSL NSH                         
+*N14   B  F372                         DL  DH  NSL NSH                         
+*P15   B  F163                         DL  DH  NSL NSH                         
+*P16   B  F164                         DL  DH  NSL NSH                         
+*N15   B  F172                         DL  DH  NSL NSH                         
+*N16   B  F171                         DL  DH  NSL NSH                         
+*M14   B  F179                         DL  DH  NSL NSH                         
+*P14   B  F156                         DL  DH  NSL NSH                         
+*M15   B  F204                         DL  DH  NSL NSH                         
+*M16   B  F586                         DL  DH  NSL NSH                         
+*L14   B  F66                          DL  DH  NSL NSH                         
+*L15   B  F602                         DL  DH  NSL NSH                         
+*L16   B  NOTNAILED            UNUSED                                          
+*K16   B  NOTNAILED            UNUSED                                          
+*K15   B  F641                         DL  DH  NSL NSH                         
+*H12   B  F212                         DL  DH  NSL NSH                         
+*J12   B  F666                         DL  DH  NSL NSH                         
+*G16   B  F180                         DL  DH  NSL NSH                         
+*G15   B  F746                         DL  DH  NSL NSH                         
+*F15   B  F187                         DL  DH  NSL NSH                         
+*F16   B  F188                         DL  DH  NSL NSH                         
+*H13   B  F219                         DL  DH  NSL NSH                         
+*G12   B  F227                         DL  DH  NSL NSH                         
+*G13   B  F220                         DL  DH  NSL NSH                         
+*E13   B  F235                         DL  DH  NSL NSH                         
+*F13   B  F228                         DL  DH  NSL NSH                         
+*D15   B  F633                         DL  DH  NSL NSH                         
+*D16   B  NOTNAILED            UNUSED                                          
+*E15   B  F196                         DL  DH  NSL NSH                         
+*E16   B  F609                         DL  DH  NSL NSH                         
+*F14   B  F195                         DL  DH  NSL NSH                         
+*C15   B  F236                         DL  DH  NSL NSH                         
+*C16   B  F705                         DL  DH  NSL NSH                         
+*C14   B  F364                         DL  DH  NSL NSH                         
+*D13   B  F57                          DL  DH  NSL NSH                         
+*E14   B  F371                         DL  DH  NSL NSH                         
+*D14   B  F657                         DL  DH  NSL NSH                         
+*B14   B  F275                         DL  DH  NSL NSH                         
+*A14   B  F275                         DL  DH  NSL NSH                         
+*C13   B  NOTNAILED            UNUSED                                          
+*C12   B  NOTNAILED            UNUSED                                          
+*B13   B  F155                         DL  DH  NSL NSH                         
+*A13   B  F601                         DL  DH  NSL NSH                         
+*B12   B  F363                         DL  DH  NSL NSH                         
+*A12   B  F355                         DL  DH  NSL NSH                         
+*C11   B  NOTNAILED            UNUSED                                          
+*B11   B  F594                         DL  DH  NSL NSH                         
+*A11   B  F626                         DL  DH  NSL NSH                         
+*B10   B  NOTNAILED            UNUSED                                          
+*A10   B  F348                         DL  DH  NSL NSH                         
+*D9    B  F147                         DL  DH  NSL NSH                         
+*D11   B  F292                         DL  DH  NSL NSH                         
+*D10   B  F148                         DL  DH  NSL NSH                         
+*A7    B  F610                         DL  DH  NSL NSH                         
+*B7    B  F634                         DL  DH  NSL NSH                         
+*D8    B  F340                         DL  DH  NSL NSH                         
+*B6    B  F139                         DL  DH  NSL NSH                         
+*A6    B  F698                         DL  DH  NSL NSH                         
+*D7    B  F339                         DL  DH  NSL NSH                         
+*D6    B  F332                         DL  DH  NSL NSH                         
+*C6    B  F140                         DL  DH  NSL NSH                         
+*C5    B  F324                         DL  DH  NSL NSH                         
+*C4    B  F116                         DL  DH  NSL NSH                         
+*B5    B  F131                         DL  DH  NSL NSH                         
+*A5    B  F91                          DL  DH  NSL NSH                         
+*B4    B  F123                         DL  DH  NSL NSH                         
+*A4    B  F124                         DL  DH  NSL NSH                         
+*A3    B  NOTNAILED            UNUSED                                          
+*B3    B  NOTNAILED            UNUSED                                          
+*H15   I  NOTNAILED            UNUSED                                          
+*A8    I  NOTNAILED            UNUSED                                          
+*B8    I  NOTNAILED            UNUSED                                          
+
+
+
+
+Test Summary for U1 (FBGA256)
+Type                Tested Faults        Detected         Coverage
+------------------------------------------------------------------
+Inputs:   23              40                34              85.00%
+Outputs:   3               6                 2              33.33%
+Bi-dirs: 134           
+ Inputs                  268               240              89.55%
+ Outputs                 268                 0               0.00%
+Other:    96    (VCC: 44  GND: 49  UNUSED: 3)
+--------------------------------------------------------------------
+Totals:  256             582               276              47.42%
+====================================================================
+
+
+DEVICE LABEL:   U1_B1
+DEVICE NAME:    U1
+DEVICE TYPE:    FBGA256
+
+     Pin               Node           Nail     Max BackDrive
+
+      H4       TOH_FPGA_2_ICP_4_       276          53.52 mA
+
+LOGIC FAMILY A  MAXIMUM BACKDRIVE CURRENT: 53.52 mA
+
+
+DEVICE LABEL:   U1_B1
+DEVICE NAME:    U1
+DEVICE TYPE:    FBGA256
+
+     Pin               Node           Nail           Voltage
+
+      C3            FPGA_N_25215       316              2.99
+      F4            FPGA_N_25246       331              2.99
+      C1            FPGA_N_25207       300              2.99
+      D3        FPGA_LNPPPINS_3_       115              2.99
+      D2            FPGA_N_25226       315              2.99
+      D1          BP_2_RX_TOH_3_       650              2.99
+      E3          BP_2_RX_TOH_6_       618              2.99
+      E4        LINE_2_RX_TOH_3_       617              2.99
+      G4        LINE_1_RX_TOH_FP       697              2.99
+      E1          BP_1_RX_TOH_2_       681              2.99
+      E2        FPGA_LNPPPINS_6_       107              2.99
+      K2          BP_1_RX_TOH_7_       682              2.99
+      K1          BP_1_RX_TOH_6_       658              2.99
+      K4          BP_1_RX_TOH_1_       737              2.99
+      K5          BP_1_RX_TOH_3_       738              2.99
+      L1        LINE_1_RX_TOH_0_       714              2.99
+      L2          BP_1_RX_TOH_4_       674              2.99
+      M1        LINE_1_RX_TOH_2_       713              2.99
+      M2            FPGA_N_25273       308              2.99
+      M3        LINE_1_RX_TOH_6_       690              2.99
+      L3        LINE_1_RX_TOH_5_       706              2.99
+      N1      FPGA_LNPPPINS_2_0_       100              2.99
+      N2       LINE_2_PPP_INS_FP       585              2.99
+      P1      FPGA_LNPPPINS_2_3_        99              2.99
+      P2      FPGA_LNPPPINS_2_2_        92              2.99
+      N3        LINE_1_RX_TOH_3_       722              2.99
+      N4        LINE_1_RX_TOH_4_       730              2.99
+      P3           TOH_FPGA_CS_N       291              2.99
+      L4        LINE_1_RX_TOH_1_       673              2.99
+      M4        LINE_1_RX_TOH_7_       729              2.99
+      R3            FPGA_N_25301       323              3.00
+      T3            FPGA_N_25312       307              3.00
+      P5      FPGA_LNPPPINS_2_4_       132              3.00
+      P4       FPGA_LNPPPINSEN_2       108              0.14
+      T4           MICRO_DATA_6_        73              3.00
+      R4           MICRO_DATA_5_        18              3.00
+      T5           MICRO_DATA_7_        17              3.00
+      R5           MICRO_DATA_4_        25              3.00
+      N7           MICRO_DATA_2_        26              3.00
+      T6          MICRO_DATA_10_       244              3.00
+      R6           MICRO_DATA_9_       243              3.00
+      P6           MICRO_DATA_8_       268              3.00
+      N6          MICRO_DATA_11_       267              3.00
+      N8           MICRO_DATA_3_        34              3.00
+      T7          MICRO_DATA_12_       251              3.00
+      R7          MICRO_DATA_13_       252              3.00
+      T8          MICRO_DATA_15_       260              3.00
+      R8           MICRO_DATA_1_        33              3.00
+     T11           MICRO_DATA_0_        10              3.00
+     R11          MICRO_DATA_14_       259              3.00
+     P11           MICRO_ADDR_2_        42              3.00
+     R10           MICRO_ADDR_4_         1              3.00
+     T10          MICRO_ADDR_10_         9              3.00
+     P12           MICRO_ADDR_3_        49              3.00
+     P13           MICRO_ADDR_5_        65              3.00
+     N11           MICRO_ADDR_6_        41              3.00
+     T12           MICRO_ADDR_7_        50              3.00
+     T13           MICRO_ADDR_8_         2              3.00
+     R13            FPGA_N_25299       356              3.00
+     T14           MICRO_ADDR_9_        58              3.00
+     R14          BP_2_RX_TOH_FP       642              3.00
+     K13      FPGA_BPPPPINS_2_6_       211              2.99
+     N13      FPGA_BPPPPINS_2_3_       203              2.99
+     N14            FPGA_N_25278       372              2.99
+     P15      FPGA_BPPPPINS_2_1_       163              2.99
+     P16      FPGA_BPPPPINS_2_2_       164              2.99
+     N15      FPGA_BPPPPINS_2_5_       172              2.99
+     N16      FPGA_BPPPPINS_2_0_       171              2.99
+     M14      FPGA_BPPPPINS_2_7_       179              2.99
+     P14      FPGA_BPPPPINS_2_4_       156              2.99
+     M15       FPGA_BPPPPINSEN_2       204              0.15
+     M16         BP_2_PPP_INS_FP       586              2.99
+     L14           MICRO_ADDR_1_        66              2.99
+     L15          BP_2_RX_TOH_7_       602              2.99
+     K15          BP_2_RX_TOH_1_       641              2.99
+     H12        FPGA_BPPPPINS_5_       212              2.99
+     J12          BP_1_RX_TOH_0_       666              2.99
+     G16      FPGA_LNPPPINS_2_7_       180              2.99
+     G15          BP_1_RX_TOH_FP       746              2.99
+     F15        FPGA_BPPPPINS_4_       187              2.99
+     F16        FPGA_BPPPPINS_6_       188              2.99
+     H13        FPGA_BPPPPINS_0_       219              2.99
+     G12        FPGA_BPPPPINS_2_       227              2.99
+     G13        FPGA_BPPPPINS_1_       220              2.99
+     E13        FPGA_BPPPPINS_7_       235              2.99
+     F13        FPGA_BPPPPINS_3_       228              2.99
+     D15        LINE_2_RX_TOH_7_       633              2.99
+     E15        FPGA_LNPPPINS_4_       196              2.99
+     E16        LINE_2_RX_TOH_5_       609              2.99
+     F14      FPGA_REF_SYNC_9186       195              2.99
+     C15         FPGA_BPPPPINSEN       236              0.15
+     C16         BP_1_PPP_INS_FP       705              2.99
+     C14            FPGA_N_25211       364              2.99
+     D13          MICRO_ADDR_11_        57              2.99
+     E14            FPGA_N_25235       371              2.99
+     D14        LINE_2_RX_TOH_4_       657              2.99
+     B14                REF_SYNC       275              3.03
+     B13    FPGA_REF_SYNC_9186_2       155              3.00
+     A13        LINE_2_RX_TOH_2_       601              3.00
+     B12            FPGA_N_25199       363              3.00
+     A12            FPGA_N_25189       355              3.00
+     B11        LINE_2_RX_TOH_1_       594              3.00
+     A11        LINE_2_RX_TOH_0_       626              3.00
+     A10            FPGA_N_25187       348              3.00
+      D9      FPGA_LNPPPINS_2_5_       147              3.00
+     D11        TOH_FPGA_RD_WR_N       292              3.00
+     D10      FPGA_LNPPPINS_2_6_       148              3.00
+      A7          BP_2_RX_TOH_0_       610              3.00
+      B7          BP_2_RX_TOH_2_       634              3.00
+      D8            FPGA_N_25231       340              3.00
+      B6        FPGA_LNPPPINS_7_       139              3.00
+      A6       LINE_1_PPP_INS_FP       698              3.00
+      D7            FPGA_N_25230       339              3.00
+      D6            FPGA_N_25229       332              3.00
+      C6         FPGA_LNPPPINSEN       140              0.14
+      C5            FPGA_N_25217       324              3.00
+      C4        FPGA_LNPPPINS_2_       116              3.00
+      B5        FPGA_LNPPPINS_1_       131              3.00
+      A5      FPGA_LNPPPINS_2_1_        91              3.00
+      B4        FPGA_LNPPPINS_5_       123              3.00
+      A4        FPGA_LNPPPINS_0_       124              3.00
+      H2        BP_1_PPP_INS_CLK       721              2.99
+      H1      TOH_FPGA_MICRO_CLK       284              2.99
+      J2         BP_2_RX_TOH_CLK       625              2.99
+      J1          TOH_FPGA_RST_N       299              2.99
+     H16            FPGA_N_25130       379              2.99
+     J15       LINE_2_RX_TOH_CLK       649              2.99
+     J16      LINE_2_PPP_INS_CLK       578              2.99
+      A9        BP_2_PPP_INS_CLK       593              3.00
+      B9       LINE_1_RX_TOH_CLK       689              3.00
+     N10            FPGA_N_22064       347              3.00
+      R9         BP_1_RX_TOH_CLK       665              3.00
+      T9      LINE_1_PPP_INS_CLK       745              3.00
+      F1       TOH_FPGA_2_ICP_1_       283              1.14
+      H4       TOH_FPGA_2_ICP_4_       276              2.22
+      F2            JTAG_CNTL_0_        81             -0.00
+      G1            JTAG_CNTL_1_        74              2.99
+      H5                JTAG_TDI        82              2.99
+      G2    JTAG_FPGA_TDO_9186_1       579              2.04
+
+
+DEVICE LABEL:   U1_B1
+DEVICE NAME:    U1
+DEVICE TYPE:    FBGA256
+
+     Pin               Node           Nail           Voltage
+
+      C3            FPGA_N_25215       316              2.99
+      F4            FPGA_N_25246       331              2.99
+      C1            FPGA_N_25207       300              2.99
+      D3        FPGA_LNPPPINS_3_       115              2.99
+      D2            FPGA_N_25226       315              2.99
+      D1          BP_2_RX_TOH_3_       650              2.99
+      E3          BP_2_RX_TOH_6_       618              2.99
+      E4        LINE_2_RX_TOH_3_       617              2.99
+      G4        LINE_1_RX_TOH_FP       697              2.99
+      E1          BP_1_RX_TOH_2_       681              2.99
+      E2        FPGA_LNPPPINS_6_       107              2.99
+      K2          BP_1_RX_TOH_7_       682              2.99
+      K1          BP_1_RX_TOH_6_       658              2.99
+      K4          BP_1_RX_TOH_1_       737              2.99
+      K5          BP_1_RX_TOH_3_       738              2.99
+      L1        LINE_1_RX_TOH_0_       714              2.99
+      L2          BP_1_RX_TOH_4_       674              2.99
+      M1        LINE_1_RX_TOH_2_       713              2.99
+      M2            FPGA_N_25273       308              2.99
+      M3        LINE_1_RX_TOH_6_       690              2.99
+      L3        LINE_1_RX_TOH_5_       706              2.99
+      N1      FPGA_LNPPPINS_2_0_       100              2.99
+      N2       LINE_2_PPP_INS_FP       585              2.99
+      P1      FPGA_LNPPPINS_2_3_        99              2.99
+      P2      FPGA_LNPPPINS_2_2_        92              2.99
+      N3        LINE_1_RX_TOH_3_       722              2.99
+      N4        LINE_1_RX_TOH_4_       730              2.99
+      P3           TOH_FPGA_CS_N       291              2.99
+      L4        LINE_1_RX_TOH_1_       673              2.99
+      M4        LINE_1_RX_TOH_7_       729              2.99
+      R3            FPGA_N_25301       323              3.00
+      T3            FPGA_N_25312       307              3.00
+      P5      FPGA_LNPPPINS_2_4_       132              3.00
+      P4       FPGA_LNPPPINSEN_2       108              0.14
+      T4           MICRO_DATA_6_        73              3.00
+      R4           MICRO_DATA_5_        18              3.00
+      T5           MICRO_DATA_7_        17              3.00
+      R5           MICRO_DATA_4_        25              3.00
+      N7           MICRO_DATA_2_        26              3.00
+      T6          MICRO_DATA_10_       244              3.00
+      R6           MICRO_DATA_9_       243              3.00
+      P6           MICRO_DATA_8_       268              3.00
+      N6          MICRO_DATA_11_       267              3.00
+      N8           MICRO_DATA_3_        34              3.00
+      T7          MICRO_DATA_12_       251              3.00
+      R7          MICRO_DATA_13_       252              3.00
+      T8          MICRO_DATA_15_       260              3.00
+      R8           MICRO_DATA_1_        33              3.00
+     T11           MICRO_DATA_0_        10              3.00
+     R11          MICRO_DATA_14_       259              3.00
+     P11           MICRO_ADDR_2_        42              3.00
+     R10           MICRO_ADDR_4_         1              3.01
+     T10          MICRO_ADDR_10_         9              3.00
+     P12           MICRO_ADDR_3_        49              3.00
+     P13           MICRO_ADDR_5_        65              3.00
+     N11           MICRO_ADDR_6_        41              3.00
+     T12           MICRO_ADDR_7_        50              3.00
+     T13           MICRO_ADDR_8_         2              3.00
+     R13            FPGA_N_25299       356              3.00
+     T14           MICRO_ADDR_9_        58              3.00
+     R14          BP_2_RX_TOH_FP       642              3.00
+     K13      FPGA_BPPPPINS_2_6_       211              2.99
+     N13      FPGA_BPPPPINS_2_3_       203              2.99
+     N14            FPGA_N_25278       372              2.99
+     P15      FPGA_BPPPPINS_2_1_       163              2.99
+     P16      FPGA_BPPPPINS_2_2_       164              2.99
+     N15      FPGA_BPPPPINS_2_5_       172              2.99
+     N16      FPGA_BPPPPINS_2_0_       171              2.99
+     M14      FPGA_BPPPPINS_2_7_       179              2.99
+     P14      FPGA_BPPPPINS_2_4_       156              2.99
+     M15       FPGA_BPPPPINSEN_2       204              0.15
+     M16         BP_2_PPP_INS_FP       586              2.99
+     L14           MICRO_ADDR_1_        66              2.99
+     L15          BP_2_RX_TOH_7_       602              2.99
+     K15          BP_2_RX_TOH_1_       641              2.99
+     H12        FPGA_BPPPPINS_5_       212              2.99
+     J12          BP_1_RX_TOH_0_       666              2.99
+     G16      FPGA_LNPPPINS_2_7_       180              2.99
+     G15          BP_1_RX_TOH_FP       746              2.99
+     F15        FPGA_BPPPPINS_4_       187              2.99
+     F16        FPGA_BPPPPINS_6_       188              2.99
+     H13        FPGA_BPPPPINS_0_       219              2.99
+     G12        FPGA_BPPPPINS_2_       227              2.99
+     G13        FPGA_BPPPPINS_1_       220              2.99
+     E13        FPGA_BPPPPINS_7_       235              2.99
+     F13        FPGA_BPPPPINS_3_       228              2.99
+     D15        LINE_2_RX_TOH_7_       633              2.99
+     E15        FPGA_LNPPPINS_4_       196              2.99
+     E16        LINE_2_RX_TOH_5_       609              2.99
+     F14      FPGA_REF_SYNC_9186       195              2.99
+     C15         FPGA_BPPPPINSEN       236              0.15
+     C16         BP_1_PPP_INS_FP       705              2.99
+     C14            FPGA_N_25211       364              2.99
+     D13          MICRO_ADDR_11_        57              2.99
+     E14            FPGA_N_25235       371              2.99
+     D14        LINE_2_RX_TOH_4_       657              2.99
+     B14                REF_SYNC       275              3.03
+     B13    FPGA_REF_SYNC_9186_2       155              3.00
+     A13        LINE_2_RX_TOH_2_       601              3.00
+     B12            FPGA_N_25199       363              3.00
+     A12            FPGA_N_25189       355              3.00
+     B11        LINE_2_RX_TOH_1_       594              3.00
+     A11        LINE_2_RX_TOH_0_       626              3.00
+     A10            FPGA_N_25187       348              3.00
+      D9      FPGA_LNPPPINS_2_5_       147              3.00
+     D11        TOH_FPGA_RD_WR_N       292              3.00
+     D10      FPGA_LNPPPINS_2_6_       148              3.00
+      A7          BP_2_RX_TOH_0_       610              3.00
+      B7          BP_2_RX_TOH_2_       634              3.00
+      D8            FPGA_N_25231       340              3.00
+      B6        FPGA_LNPPPINS_7_       139              3.00
+      A6       LINE_1_PPP_INS_FP       698              3.00
+      D7            FPGA_N_25230       339              3.00
+      D6            FPGA_N_25229       332              3.00
+      C6         FPGA_LNPPPINSEN       140              0.14
+      C5            FPGA_N_25217       324              3.00
+      C4        FPGA_LNPPPINS_2_       116              3.00
+      B5        FPGA_LNPPPINS_1_       131              3.00
+      A5      FPGA_LNPPPINS_2_1_        91              3.00
+      B4        FPGA_LNPPPINS_5_       123              3.00
+      A4        FPGA_LNPPPINS_0_       124              3.00
+      H2        BP_1_PPP_INS_CLK       721              2.99
+      H1      TOH_FPGA_MICRO_CLK       284              2.99
+      J2         BP_2_RX_TOH_CLK       625              2.99
+      J1          TOH_FPGA_RST_N       299              2.99
+     H16            FPGA_N_25130       379              2.99
+     J15       LINE_2_RX_TOH_CLK       649              2.99
+     J16      LINE_2_PPP_INS_CLK       578              2.99
+      A9        BP_2_PPP_INS_CLK       593              3.00
+      B9       LINE_1_RX_TOH_CLK       689              3.00
+     N10            FPGA_N_22064       347              3.00
+      R9         BP_1_RX_TOH_CLK       665              3.00
+      T9      LINE_1_PPP_INS_CLK       745              3.00
+      F1       TOH_FPGA_2_ICP_1_       283              1.95
+      H4       TOH_FPGA_2_ICP_4_       276              2.48
+      F2            JTAG_CNTL_0_        81             -0.00
+      G1            JTAG_CNTL_1_        74              2.99
+      H5                JTAG_TDI        82              2.99
+      G2    JTAG_FPGA_TDO_9186_1       579              2.20
+
+
+
+Test Analysis for U2 (VSC9186)
+Burst duration 885.036775U sec.
+ Pin Type Nail                 Special Drives  Senses  Stuck Ats
+----------------------------------------------------------------------
+*A4    I  F804                         DL  NDH          SLF SHF                
+*A5    I  F804                         DL  NDH          SLF SHF                
+*A6    I  F779                         DL  NDH          SLF SHF                
+*A7    I  NOTNAILED            UNUSED                                          
+*A8    I  F779                         DL  NDH          SLF SHF                
+*A9    I  F602                         NDL NDH          SLF SHF                
+*A10   I  F1604                        NDL NDH          SLF SHF                
+*A11   I  F1588                        NDL NDH          SLF SHF                
+*A12   I  F684                         DL  NDH          SLF SHF                
+*A13   I  F739                         NDL DH           SLF SHF                
+*A14   I  F723                         DL  NDH          SLF SHF                
+*A15   I  F41                          DL  NDH          SLF SHF                
+*A16   I  F1548                        NDL NDH          SLF SHF                
+*A17   I  F732                         NDL DH           SLF SHF                
+*A18   I  F10                          DL  NDH          SLF SHF                
+*A19   I  F747                         DL  NDH          SLF SHF                
+*A20   I  F18                          NDL DH           SLF SHF                
+*A21   I  F755                         NDL NDH          SLF SHF                
+*AA1   I  F1284                        NDL DH           SLF SHF                
+*AA2   I  NOTNAILED            UNUSED                                          
+*AA3   I  F1652                        NDL NDH          SLF SHF                
+*AA4   I  F1332                        NDL DH           SLF SHF                
+*AA5   I  F1403                        NDL NDH          SLF SHF                
+*AA6   I  F1396                        NDL DH           SLF SHF                
+*AA7   I  F1620                        NDL NDH          SLF SHF                
+*AA9   I  NOTNAILED            UNUSED                                          
+*AA10  I  F537                         NDL NDH          SLF SHF                
+*AA11  I  F385                         NDL NDH          SLF SHF                
+*AA12  I  F529                         NDL DH           SLF SHF                
+*AA13  I  F449                         NDL NDH          SLF SHF                
+*AA14  I  F138                         NDL NDH          SLF SHF                
+*AA15  I  F402                         NDL NDH          SLF SHF                
+*AA18  I  F122                         DL  NDH          SLF SHF                
+*AA19  I  F305                         NDL NDH          SLF SHF                
+*AA20  I  F137                         NDL DH           SLF SHF                
+*AA21  I  F274                         NDL NDH          SLF SHF                
+*AA22  I  NOTNAILED            UNUSED                                          
+*AA23  I  F225                         NDL NDH          SLF SHF                
+*AA24  I  F185                         NDL NDH          SLF SHF                
+*AB1   I  F1355                        NDL NDH          SLF SHF                
+*AB3   I  F1348                        NDL DH           SLF SHF                
+*AB7   I  F1419                        NDL NDH          SLF SHF                
+*AB9   I  F513                         NDL NDH          SLF SHF                
+*AB11  I  F369                         DL  NDH          SLF SHF                
+*AB14  I  F554                         NDL NDH          SLF SHF                
+*AB16  I  F466                         NDL NDH          SLF SHF                
+*AB18  I  F177                         NDL DH           SLF SHF                
+*AB22  I  F242                         NDL NDH          SLF SHF                
+*AB24  I  F194                         DL  NDH          SLF SHF                
+*AC2   I  F1131                        NDL NDH          SLF SHF                
+*AC4   I  F1339                        NDL NDH          SLF SHF                
+*AC6   I  F1643                        DL  NDH          SLF SHF                
+*AC8   I  F1427                        NDL NDH          SLF SHF                
+*AC9   I  F545                         NDL NDH          SLF SHF                
+*AC10  I  F497                         NDL NDH          SLF SHF                
+*AC11  I  F361                         NDL NDH          SLF SHF                
+*AC12  I  F474                         NDL DH           SLF SHF                
+*AC13  I  F306                         DL  NDH          SLF SHF                
+*AC14  I  F522                         NDL DH           SLF SHF                
+*AC15  I  NOTNAILED            UNUSED                                          
+*AC16  I  F433                         NDL NDH          SLF SHF                
+*AC17  I  F129                         DL  NDH          SLF SHF                
+*AC19  I  F353                         NDL NDH          SLF SHF                
+*AC21  I  F169                         DL  NDH          SLF SHF                
+*AC22  I  F1716                        NDL DH           SLF SHF                
+*AC23  I  F1244                        NDL NDH          SLF SHF                
+*AD1   I  F1100                        NDL NDH          SLF SHF                
+*AD3   I  F1684                        NDL NDH          SLF SHF                
+*AD5   I  F1404                        DL  NDH          SLF SHF                
+*AD9   I  F538                         NDL NDH          SLF SHF                
+*AD11  I  F217                         NDL NDH          SLF SHF                
+*AD14  I  NOTNAILED            UNUSED                                          
+*AD16  I  F257                         NDL NDH          SLF SHF                
+*AD20  I  F298                         NDL NDH          SLF SHF                
+*AD22  I  F1236                        NDL NDH          SLF SHF                
+*AD24  I  F1307                        NDL NDH          SLF SHF                
+*AE1   I  F852                         DL  NDH          SLF                    
+*AE2   I  F1124                        NDL NDH          SLF SHF                
+*AE4   I  F1347                        NDL NDH          SLF SHF                
+*AE5   I  F1292                        DL  NDH          SLF SHF                
+*AE6   I  F1356                        DL  NDH          SLF SHF                
+*AE7   I  F570                         NDL NDH          SLF SHF                
+*AE8   I  F1420                        DL  NDH          SLF SHF                
+*AE9   I  F313                         NDL NDH          SLF SHF                
+*AE10  I  F521                         NDL NDH          SLF SHF                
+*AE12  I  F201                         NDL NDH          SLF SHF                
+*AE13  I  F457                         NDL NDH          SLF SHF                
+*AE14  I  F1572                UNUSED                                          
+*AE15  I  F401                         NDL NDH          SLF SHF                
+*AE16  I  F409                         NDL NDH          SLF SHF                
+*AE17  I  F345                         NDL NDH          SLF SHF                
+*AE18  I  F209                         NDL DH           SLF SHF                
+*AE19  I  NOTNAILED            UNUSED                                          
+*AE20  I  F170                         NDL NDH          SLF SHF                
+*AE21  I  F234                         NDL DH           SLF SHF                
+*AE22  I  F1460                UNUSED                                          
+*AE23  I  F1251                        NDL NDH          SLF SHF                
+*AF1   I  F1107                        NDL NDH          SLF SHF                
+*AF3   I  F1675                        NDL NDH          SLF SHF                
+*AF5   I  F577                         NDL NDH          SLF SHF                
+*AF7   I  F281                         NDL NDH          SLF SHF                
+*AF9   I  NOTNAILED            UNUSED                                          
+*AF11  I  F282                         NDL NDH          SLF SHF                
+*AF14  I  F250                         NDL NDH          SLF SHF                
+*AF16  I  F377                         DL  NDH          SLF SHF                
+*AF18  I  F146                         NDL NDH          SLF SHF                
+*AF20  I  F266                         NDL NDH          SLF SHF                
+*AF22  I  F1243                        NDL NDH          SLF SHF                
+*AF24  I  F1300                        NDL NDH          SLF SHF                
+*AG1   I  F851                         NDL DH           SLF SHF                
+*AG2   I  F1411                        NDL NDH          SLF SHF                
+*AG3   I  F836                         NDL DH           SLF SHF                
+*AG4   I  F1219                        NDL NDH          SLF SHF                
+*AG5   I  F820                         NDL DH               SHF                
+*AG6   I  F562                         NDL NDH          SLF SHF                
+*AG7   I  F314                         NDL NDH          SLF SHF                
+*AG8   I  F329                         NDL NDH          SLF SHF                
+*AG10  I  F441                         NDL NDH          SLF SHF                
+*AG11  I  F780                         DL  NDH          SLF                    
+*AG12  I  NOTNAILED            UNUSED                                          
+*AG13  I  F289                         NDL NDH          SLF SHF                
+*AG14  I  F772                         NDL DH           SLF SHF                
+*AG15  I  F226                         NDL NDH          SLF SHF                
+*AG16  I  F321                         NDL NDH          SLF SHF                
+*AG17  I  NOTNAILED            UNUSED                                          
+*AG18  I  F354                         NDL NDH          SLF SHF                
+*AG19  I  F153                         NDL NDH          SLF SHF                
+*AG20  I  F1492                UNUSED                                          
+*AG21  I  F1156                        NDL NDH          SLF SHF                
+*AG22  I  F1444                UNUSED                                          
+*AG23  I  F130                         DL  NDH          SLF SHF                
+*AG24  I  F1428                UNUSED                                          
+*AH3   I  F1212                        NDL DH           SLF SHF                
+*AH5   I  F1412                        NDL DH           SLF SHF                
+*AH7   I  F569                         NDL NDH          SLF SHF                
+*AH9   I  F546                         NDL NDH          SLF SHF                
+*AH11  I  F233                         NDL DH           SLF SHF                
+*AH14  I  F113                         NDL NDH          SLF SHF                
+*AH16  I  NOTNAILED            UNUSED                                          
+*AH18  I  F178                         NDL NDH          SLF SHF                
+*AH20  I  NOTNAILED            UNUSED                                          
+*AH22  I  F1163                        NDL NDH          SLF SHF                
+*AJ3   I  F660                         NDL NDH          SLF SHF                
+*AJ5   I  F827                         NDL DH               SHF                
+*AJ6   I  F418                         NDL NDH          SLF SHF                
+*AJ7   I  F787                         DL  NDH          SLF SHF                
+*AJ08  I  F434                         NDL NDH          SLF SHF                
+*AJ9   I  F362                         NDL NDH          SLF SHF                
+*AJ10  I  F514                         NDL NDH          SLF SHF                
+*AJ11  I  F425                         DL  NDH          SLF SHF                
+*AJ12  I  F482                         DL  NDH          SLF SHF                
+*AJ13  I  F370                         NDL NDH          SLF SHF                
+*AJ14  I  F386                         NDL NDH          SLF SHF                
+*AJ15  I  F297                         NDL NDH          SLF SHF                
+*AJ16  I  F145                         NDL NDH          SLF SHF                
+*AJ17  I  F265                         NDL NDH          SLF SHF                
+*AJ18  I  F1516                UNUSED                                          
+*AJ19  I  NOTNAILED            UNUSED                                          
+*AJ20  I  F1475                UNUSED                                          
+*AJ22  I  F1467                UNUSED                                          
+*AJ23  I  F1443                UNUSED                                          
+*AK3   I  F1299                        NDL NDH          SLF SHF                
+*AK5   I  F330                         NDL NDH          SLF SHF                
+*AK7   I  F417                         NDL NDH          SLF SHF                
+*AK9   I  F481                         NDL NDH          SLF SHF                
+*AK11  I  F442                         NDL NDH          SLF SHF                
+*AK14  I  F338                         NDL DH           SLF SHF                
+*AK16  I  F426                         NDL NDH          SLF SHF                
+*AK18  I  F290                         NDL NDH          SLF SHF                
+*AK20  I  F186                         NDL NDH          SLF SHF                
+*AK22  I  F218                         DL  NDH          SLF SHF                
+*AL5   I  F811                         NDL DH           SLF SHF                
+*AL6   I  F465                         NDL NDH          SLF SHF                
+*AL7   I  F828                         NDL DH           SLF SHF                
+*AL8   I  F489                         NDL DH           SLF SHF                
+*AL9   I  F788                         DL  NDH          SLF                    
+*AL10  I  F490                         NDL NDH          SLF SHF                
+*AL11  I  F273                         NDL NDH          SLF SHF                
+*AL12  I  F258                         NDL NDH          SLF SHF                
+*AL13  I  F337                         NDL DH           SLF SHF                
+*AL14  I  F473                         NDL DH           SLF SHF                
+*AL15  I  F210                         NDL NDH          SLF SHF                
+*AL16  I  F1556                UNUSED                                          
+*AL17  I  F378                         NDL NDH          SLF SHF                
+*AL18  I  F1532                UNUSED                                          
+*AL19  I  F322                         DL  NDH          SLF SHF                
+*AL20  I  F1468                UNUSED                                          
+*B3    I  F1676                        DL  NDH          SLF SHF                
+*B5    I  F803                         DL  NDH          SLF SHF                
+*B7    I  NOTNAILED            UNUSED                                          
+*B9    I  F803                         DL  NDH          SLF SHF                
+*B11   I  F779                         DL  NDH          SLF SHF                
+*B14   I  F748                         DL  NDH          SLF SHF                
+*B16   I  F763                         DL  NDH          SLF SHF                
+*B18   I  F2                           DL  NDH          SLF SHF                
+*B20   I  F57                          NDL DH           SLF SHF                
+*B22   I  F1011                        NDL NDH          SLF SHF                
+*C3    I  NOTNAILED            UNUSED                                          
+*C4    I  F657                         NDL NDH          SLF SHF                
+*C5    I  F650                         NDL NDH          SLF SHF                
+*C6    I  F803                         DL  NDH          SLF SHF                
+*C7    I  F625                         NDL NDH          SLF SHF                
+*C8    I  F803                         DL  NDH          SLF SHF                
+*C9    I  NOTNAILED            UNUSED                                          
+*C10   I  F803                         DL  NDH          SLF SHF                
+*C11   I  F779                         DL  NDH          SLF SHF                
+*C12   I  F692                         NDL DH           SLF SHF                
+*C13   I  F699                         DL  NDH          SLF SHF                
+*C14   I  F731                         NDL DH           SLF SHF                
+*C15   I  F97                          DL  NDH          SLF SHF                
+*C16   I  F1539                        DL  NDH          SLF SHF                
+*C17   I  F58                          NDL DH           SLF SHF                
+*C18   I  F1531                        NDL NDH          SLF SHF                
+*C19   I  F9                           DL  NDH          SLF SHF                
+*C20   I  F33                          NDL DH           SLF SHF                
+*C21   I  NOTNAILED            UNUSED                                          
+*C22   I  NOTNAILED            UNUSED                                          
+*D1    I  F859                         DL  NDH          SLF SHF                
+*D3    I  F1692                        NDL NDH          SLF SHF                
+*D5    I  F804                         DL  NDH          SLF SHF                
+*D7    I  NOTNAILED            UNUSED                                          
+*D9    I  F609                         NDL NDH          SLF SHF                
+*D11   I  F779                         DL  NDH          SLF SHF                
+*D14   I  F90                          DL  NDH          SLF SHF                
+*D16   I  F1563                        NDL DH           SLF SHF                
+*D18   I  F1132                        DL  NDH          SLF SHF                
+*D20   I  F73                          DL  NDH          SLF SHF                
+*D22   I  F876                         NDL DH           SLF SHF                
+*E1    I  NOTNAILED            UNUSED                                          
+*E2    I  NOTNAILED            UNUSED                                          
+*E3    I  NOTNAILED            UNUSED                                          
+*E4    I  F1667                        NDL NDH          SLF SHF                
+*E5    I  F641                         NDL NDH          SLF SHF                
+*E6    I  NOTNAILED            UNUSED                                          
+*E7    I  F649                         NDL NDH          SLF SHF                
+*E8    I  F633                         NDL NDH          SLF SHF                
+*E9    I  F594                         NDL NDH          SLF SHF                
+*E10   I  F803                         DL  NDH          SLF SHF                
+*E11   I  F675                         NDL DH           SLF SHF                
+*E12   I  F1579                        NDL NDH          SLF SHF                
+*E13   I  F716                         NDL DH           SLF SHF                
+*E14   I  F683                         DL  NDH          SLF SHF                
+*E15   I  F98                          NDL DH           SLF SHF                
+*E16   I  F1555                        NDL DH           SLF SHF                
+*E17   I  F1140                        DL  NDH          SLF SHF                
+*E18   I  F1139                        DL  NDH          SLF SHF                
+*E19   I  F1508                        NDL NDH          SLF SHF                
+*E20   I  F34                          NDL DH           SLF SHF                
+*E21   I  F883                         NDL NDH          SLF SHF                
+*E22   I  F1459                UNUSED                                          
+*E23   I  F708                         NDL NDH          SLF SHF                
+*E24   I  NOTNAILED            UNUSED                                          
+*F1    I  F1052                        NDL NDH          SLF SHF                
+*F3    I  F1003                        NDL NDH          SLF SHF                
+*F5    I  NOTNAILED            UNUSED                                          
+*F7    I  F1619                        NDL NDH          SLF SHF                
+*F9    I  F642                         NDL NDH          SLF SHF                
+*F11   I  F1596                        NDL NDH          SLF SHF                
+*F14   I  F50                          NDL DH           SLF SHF                
+*F16   I  NOTNAILED            UNUSED                                          
+*F18   I  F1148                        NDL DH           SLF SHF                
+*F20   I  F1483                        NDL NDH          SLF SHF                
+*F22   I  F1388                        NDL NDH          SLF SHF                
+*F24   I  F1331                        NDL NDH          SLF SHF                
+*G1    I  F844                         DL  NDH          SLF SHF                
+*G2    I  NOTNAILED            UNUSED                                          
+*G3    I  F835                         DL  NDH          SLF SHF                
+*G4    I  F1708                        NDL DH           SLF SHF                
+*G5    I  F1636                        NDL NDH          SLF SHF                
+*G7    I  F1612                        NDL NDH          SLF SHF                
+*G8    I  F618                         NDL NDH          SLF SHF                
+*G9    I  NOTNAILED            UNUSED                                          
+*G10   I  F803                         DL  NDH          SLF SHF                
+*G11   I  F668                         DL  NDH          SLF SHF                
+*G12   I  F691                         NDL DH           SLF SHF                
+*G13   I  F724                         DL  NDH          SLF SHF                
+*G14   I  F578                         NDL NDH          SLF SHF                
+*G15   I  F764                         NDL DH           SLF SHF                
+*G16   I  F1540                        NDL NDH          SLF SHF                
+*G17   I  NOTNAILED            UNUSED                                          
+*G18   I  F1500                        NDL NDH          SLF SHF                
+*G19   I  F1076                        DL  NDH          SLF SHF                
+*G20   I  F1004                        NDL DH           SLF SHF                
+*G21   I  F1035                        NDL NDH          SLF SHF                
+*G22   I  F1451                UNUSED                                          
+*G23   I  F1380                        NDL NDH          SLF SHF                
+*G24   I  F756                         NDL DH           SLF SHF                
+*H1    I  F1059                        NDL NDH          SLF SHF                
+*H3    I  F996                         NDL NDH          SLF SHF                
+*H5    I  F812                         NDL DH           SLF SHF                
+*H7    I  F634                         NDL NDH          SLF SHF                
+*H9    I  F601                         NDL NDH          SLF SHF                
+*H11   I  F1603                        NDL NDH          SLF SHF                
+*H14   I  F66                          NDL DH           SLF SHF                
+*H16   I  NOTNAILED            UNUSED                                          
+*H18   I  F26                          DL  NDH          SLF SHF                
+*H20   I  F707                         DL  NDH          SLF SHF                
+*H22   I  F1395                        NDL NDH          SLF SHF                
+*H24   I  F1324                        NDL NDH          SLF SHF                
+*J01   I  F843                         NDL DH           SLF SHF                
+*J2    I  NOTNAILED            UNUSED                                          
+*J3    I  F916                         NDL NDH          SLF SHF                
+*J4    I  F1660                        DL  NDH          SLF SHF                
+*J5    I  F700                         NDL DH           SLF SHF                
+*J6    I  F796                         NDL DH           SLF SHF                
+*J7    I  F610                         NDL NDH          SLF SHF                
+*J8    I  NOTNAILED            UNUSED                                          
+*J9    I  F804                         DL  NDH          SLF SHF                
+*J10   I  F803                         DL  NDH          SLF SHF                
+*J11   I  F779                         DL  NDH          SLF SHF                
+*J12   I  F676                         DL  NDH          SLF SHF                
+*J13   I  F585                         NDL NDH          SLF SHF                
+*J14   I  F586                         NDL NDH          SLF SHF                
+*J16   I  F1564                        NDL DH           SLF SHF                
+*J17   I  F1507                        NDL NDH          SLF SHF                
+*J18   I  F25                          DL  NDH          SLF SHF                
+*J19   I  F1084                        NDL DH           SLF SHF                
+*J21   I  F1027                        NDL NDH          SLF SHF                
+*J23   I  F1387                        NDL NDH          SLF SHF                
+*K5    I  F819                         NDL DH           SLF SHF                
+*K7    I  F804                         DL  NDH          SLF SHF                
+*K9    I  F626                         NDL NDH          SLF SHF                
+*K11   I  F779                         DL  NDH          SLF SHF                
+*K14   I  F593                         NDL NDH          SLF SHF                
+*K16   I  F1547                        DL  NDH          SLF SHF                
+*K18   I  F17                          NDL DH           SLF SHF                
+*K22   I  F1068                        NDL DH           SLF SHF                
+*K24   I  F1075                        NDL NDH          SLF SHF                
+*L1    I  F939                         NDL NDH          SLF SHF                
+*L2    I  F1700                        NDL NDH          SLF SHF                
+*L3    I  F1683                        NDL DH           SLF SHF                
+*L4    I  F1651                        NDL NDH          SLF SHF                
+*L5    I  F795                         DL  NDH          SLF SHF                
+*L06   I  F1155                        NDL DH           SLF SHF                
+*L8    I  F1611                        NDL NDH          SLF SHF                
+*L9    I  F617                         NDL NDH          SLF SHF                
+*L10   I  F803                         DL  NDH          SLF SHF                
+*L11   I  F803                         DL  NDH          SLF SHF                
+*L12   I  F779                         DL  NDH          SLF SHF                
+*L13   I  F740                         NDL DH           SLF SHF                
+*L14   I  F105                         DL  NDH          SLF SHF                
+*L15   I  F771                         NDL DH           SLF SHF                
+*L16   I  F1571                        NDL DH           SLF SHF                
+*L17   I  F1515                        NDL NDH          SLF SHF                
+*L18   I  F1091                        NDL NDH          SLF SHF                
+*L19   I  F1092                        DL  NDH          SLF SHF                
+*L20   I  F1099                        NDL NDH          SLF SHF                
+*L21   I  F1020                        NDL DH           SLF SHF                
+*L22   I  F1019                        NDL NDH          SLF SHF                
+*L23   I  F1012                        DL  NDH          SLF SHF                
+*L24   I  F964                         DL  NDH          SLF SHF                
+*M1    I  F923                         NDL NDH          SLF SHF                
+*M3    I  F932                         NDL NDH          SLF SHF                
+*M5    I  F1715                        NDL NDH          SLF SHF                
+*M9    I  F803                         DL  NDH          SLF SHF                
+*M11   I  F1595                        NDL NDH          SLF SHF                
+*M14   I  F65                          NDL DH           SLF SHF                
+*M16   I  F1147                        NDL DH           SLF SHF                
+*M18   I  F1083                        NDL NDH          SLF SHF                
+*M20   I  F1028                        DL  NDH          SLF SHF                
+*M22   I  F971                         NDL NDH          SLF SHF                
+*M24   I  F947                         NDL NDH          SLF SHF                
+*N1    I  F924                         NDL NDH          SLF SHF                
+*N2    I  F931                         NDL NDH          SLF SHF                
+*N3    I  F908                         NDL NDH          SLF SHF                
+*N4    I  F915                         NDL NDH          SLF SHF                
+*N6    I  F900                         NDL NDH          SLF SHF                
+*N7    I  F907                         NDL NDH          SLF SHF                
+*N9    I  F987                         NDL NDH          SLF SHF                
+*N10   I  F803                         DL  NDH          SLF SHF                
+*N11   I  NOTNAILED            UNUSED                                          
+*N12   I  F779                         DL  NDH          SLF SHF                
+*N13   I  F715                         DL  NDH          SLF SHF                
+*N14   I  F1                           DL  NDH          SLF SHF                
+*N15   I  F89                          NDL DH           SLF SHF                
+*N16   I  F867                         NDL NDH          SLF SHF                
+*N18   I  F956                         NDL DH           SLF SHF                
+*N19   I  F963                         NDL NDH          SLF SHF                
+*N20   I  F948                         DL  NDH          SLF SHF                
+*N21   I  F955                         NDL NDH          SLF SHF                
+*N22   I  F940                         NDL DH           SLF SHF                
+*N23   I  F884                         DL  NDH          SLF SHF                
+*N24   I  F891                         NDL NDH          SLF SHF                
+*P3    I  F979                         NDL NDH          SLF SHF                
+*P5    I  F972                         NDL NDH          SLF SHF                
+*P9    I  F980                         NDL NDH          SLF SHF                
+*P11   I  F1587                        NDL NDH          SLF SHF                
+*P14   I  F49                          NDL DH           SLF SHF                
+*P18   I  F868                         DL  NDH          SLF SHF                
+*P20   I  F860                         NDL DH           SLF SHF                
+*P22   I  F875                         NDL NDH          SLF SHF                
+*R1    I  F1707                UNUSED                                          
+*R3    I  F1043                        NDL NDH          SLF SHF                
+*R4    I  F1668                UNUSED                                          
+*R5    I  F1635                UNUSED                                          
+*R6    I  F1036                        NDL NDH          SLF SHF                
+*R7    I  F1627                UNUSED                                          
+*R8    I  F988                         NDL NDH          SLF SHF                
+*R9    I  F995                         NDL NDH          SLF SHF                
+*R10   I  F1044                        NDL NDH          SLF SHF                
+*R12   I  F1580                        NDL NDH          SLF SHF                
+*R13   I  F42                          DL  NDH          SLF SHF                
+*R15   I  F1371                        NDL NDH          SLF SHF                
+*R16   I  F899                         NDL DH           SLF SHF                
+*R17   I  F892                         NDL NDH          SLF SHF                
+*R18   I  F1499                UNUSED                                          
+*R19   I  F1379                        NDL NDH          SLF SHF                
+*R20   I  F1484                UNUSED                                          
+*R21   I  F1452                UNUSED                                          
+*R22   I  F1372                        NDL NDH          SLF SHF                
+*R24   I  F1436                UNUSED                                          
+*T1    I  F1699                        NDL NDH          SLF SHF                
+*T3    I  F1060                        NDL NDH          SLF SHF                
+*T5    I  F1628                        NDL NDH          SLF SHF                
+*T7    I  F1067                        NDL NDH          SLF SHF                
+*T9    I  F1051                        NDL NDH          SLF SHF                
+*T11   I  F1108                        NDL NDH          SLF SHF                
+*T14   I  F1364                        NDL NDH          SLF SHF                
+*T16   I  F1267                        NDL NDH          SLF SHF                
+*T18   I  F1316                        NDL NDH          SLF SHF                
+*T20   I  F1315                        NDL NDH          SLF SHF                
+*T22   I  F1308                        NDL NDH          SLF SHF                
+*T24   I  F1323                        NDL NDH          SLF SHF                
+*U3    I  F1116                        NDL NDH          SLF SHF                
+*U4    I  F1644                UNUSED                                          
+*U6    I  F1123                        NDL NDH          SLF SHF                
+*U8    I  F1228                        NDL NDH          SLF SHF                
+*U9    I  F1235                        NDL DH           SLF SHF                
+*U10   I  F1115                        NDL NDH          SLF SHF                
+*U12   I  F506                         DL  NDH          SLF SHF                
+*U13   I  F450                         NDL NDH          SLF SHF                
+*U15   I  F1260                        NDL NDH          SLF SHF                
+*U16   I  F1187                        NDL NDH          SLF SHF                
+*U17   I  F1180                        NDL NDH          SLF SHF                
+*U18   I  F1523                UNUSED                                          
+*U19   I  F1252                        NDL NDH          SLF SHF                
+*U20   I  F1491                UNUSED                                          
+*U21   I  F1476                UNUSED                                          
+*U22   I  F1259                        NDL NDH          SLF SHF                
+*U24   I  F1435                UNUSED                                          
+*V3    I  F1204                        DL  NDH          SLF SHF                
+*V5    I  F1211                        NDL NDH          SLF SHF                
+*V9    I  F1203                        NDL NDH          SLF SHF                
+*V11   I  F202                         NDL NDH          SLF SHF                
+*V14   I  F393                         NDL NDH          SLF SHF                
+*V16   I  F1172                        NDL NDH          SLF SHF                
+*V18   I  F1524                UNUSED                                          
+*V20   I  F1164                        NDL NDH          SLF SHF                
+*V22   I  F1171                        NDL NDH          SLF SHF                
+*W1    I  F1227                        NDL NDH          SLF SHF                
+*W2    I  F1220                        DL  NDH          SLF SHF                
+*W3    I  F1659                        DL  NDH          SLF SHF                
+*W4    I  F1275                        NDL NDH          SLF SHF                
+*W5    I  F1268                        NDL DH           SLF SHF                
+*W6    I  F1283                        NDL NDH          SLF SHF                
+*W7    I  F1276                        DL  NDH          SLF SHF                
+*W9    I  F1196                        NDL DH           SLF SHF                
+*W10   I  F530                         NDL NDH          SLF SHF                
+*W11   I  F505                         NDL NDH          SLF SHF                
+*W12   I  F553                         NDL NDH          SLF SHF                
+*W13   I  F458                         DL  NDH          SLF SHF                
+*W14   I  F394                         NDL NDH          SLF SHF                
+*W15   I  F162                         NDL NDH          SLF SHF                
+*W16   I  F1179                        NDL NDH          SLF SHF                
+*W18   I  F346                         NDL NDH          SLF SHF                
+*W19   I  F161                         DL  NDH          SLF SHF                
+*W21   I  F121                         NDL NDH          SLF SHF                
+*W22   I  F114                         NDL DH           SLF SHF                
+*W23   I  F1195                        NDL NDH          SLF SHF                
+*W24   I  F1188                        NDL NDH          SLF SHF                
+*Y1    I  F1691                        NDL NDH          SLF SHF                
+*Y3    I  F1291                        NDL NDH          SLF SHF                
+*Y5    I  F1340                        DL  NDH          SLF SHF                
+*Y7    I  F1363                        NDL NDH          SLF SHF                
+*Y9    I  F561                         NDL NDH          SLF SHF                
+*Y11   I  F498                         NDL NDH          SLF SHF                
+*Y14   I  F154                         NDL NDH          SLF SHF                
+*Y16   I  F410                         NDL NDH          SLF SHF                
+*Y18   I  F193                         NDL DH           SLF SHF                
+*Y20   I  F241                         NDL NDH          SLF SHF                
+*Y22   I  F249                         NDL DH           SLF SHF                
+*Y24   O  F1723                                SL  NSH                         
+
+
+
+
+Test Summary for U2 (VSC9186)
+Type                Tested Faults        Detected         Coverage
+------------------------------------------------------------------
+Inputs:  719             970                13               1.34%
+Outputs:   1               2                 1              50.00%
+--------------------------------------------------------------------
+Totals:  720             972                14               1.44%
+====================================================================
+
+
+DEVICE LABEL:   U2
+DEVICE NAME:    U2
+DEVICE TYPE:    VSC9186
+
+     Pin               Node           Nail     Max BackDrive
+
+     AG1           9186_2_N_8742       851         245.89 mA
+     AG3           9186_2_N_8741       836         195.82 mA
+     AG5           9186_2_N_8734       820         172.11 mA
+    AG14           9186_2_N_1440       772         169.47 mA
+     AJ5           9186_2_N_8532       827         156.29 mA
+     AL5           9186_2_N_8740       811         198.46 mA
+     AL7           9186_2_N_8531       828         203.73 mA
+     G24           9186_2_N_8735       756         277.52 mA
+     H20           BP_2_REFCLK_P       707          93.05 mA
+
+LOGIC FAMILY A  MAXIMUM BACKDRIVE CURRENT: 277.52 mA
+
+
+DEVICE LABEL:   U2
+DEVICE NAME:    U2
+DEVICE TYPE:    VSC9186
+
+     Pin               Node           Nail           Voltage
+
+      A4           9186_2_N_3715       804             -0.00
+      A6     9186_2_LN_TX_TOH_0_       779             -0.00
+      A9          BP_2_RX_TOH_7_       602              2.99
+     A10           9186_2_N_3994      1604              0.08
+     A11                  N_5822      1588              0.16
+     A12       LINE_2_PPP_INS_4_       684              3.00
+     A13       LINE_2_PPP_INS_7_       739              2.99
+     A14         BP_2_PPP_INS_2_       723              2.99
+     A15           MICRO_ADDR_6_        41              3.00
+     A16           9186_2_N_9780      1548             -0.00
+     A17         BP_2_PPP_INS_7_       732              2.99
+     A18           MICRO_DATA_0_        10              3.00
+     A19         BP_2_PPP_INS_EN       747              0.14
+     A20           MICRO_DATA_5_        18              3.00
+     A21           9186_2_N_8322       755              2.47
+     AA1      LINE_2_RXDATA_P_6_      1284              0.00
+     AA3           9186_2_N_3744      1652              0.00
+     AA4      LINE_2_RXDATA_P_8_      1332              0.00
+     AA5     LINE_2_RXDATA_N_12_      1403              0.00
+     AA6     LINE_2_RXDATA_P_12_      1396              0.00
+     AA7           9186_2_N_3746      1620              0.00
+    AA10              N2_S1_N_9_       537              1.38
+    AA11             N2_S1_P_10_       385              0.96
+    AA12              S1_N2_P_5_       529              0.96
+    AA13             S1_N2_N_12_       449              1.38
+    AA14              S2_N1_N_7_       138              1.38
+    AA15              S2_N1_P_8_       402              0.96
+    AA18              N1_S2_P_6_       122              0.96
+    AA19              N1_S2_N_5_       305              1.38
+    AA20              N1_S2_P_5_       137              0.96
+    AA21             N1_S2_N_10_       274              1.38
+    AA23             N1_S2_N_11_       225              1.38
+    AA24             N1_S2_N_13_       185              1.38
+     AB1     LINE_2_RXDATA_N_10_      1355              0.00
+     AB3     LINE_2_RXDATA_P_10_      1348              0.00
+     AB7     LINE_2_RXDATA_N_14_      1419              0.00
+     AB9              N2_S1_P_3_       513              0.96
+    AB11              S1_N2_P_2_       369              0.96
+    AB14             S1_N2_N_15_       554              1.38
+    AB16             S2_N1_N_14_       466              1.38
+    AB18              N1_S2_P_3_       177              0.96
+    AB22              N1_S2_N_8_       242              1.39
+    AB24              N1_S2_P_8_       194              0.96
+     AC2     LINE_2_TXDATA_N_15_      1131              1.74
+     AC4      LINE_2_RXDATA_N_8_      1339              0.00
+     AC6           9186_2_N_3745      1643              0.00
+     AC8     LINE_2_RXDATA_N_15_      1427              0.00
+     AC9              N2_S1_N_3_       545              1.38
+    AC10              N2_S1_P_7_       497              0.96
+    AC11              S1_N2_N_2_       361              1.38
+    AC12              S1_N2_P_7_       474              0.96
+    AC13             S1_N2_P_10_       306              0.96
+    AC14             S1_N2_P_15_       522              0.96
+    AC16             S2_N1_P_14_       433              0.96
+    AC17              N1_S2_P_2_       129              0.96
+    AC19              N1_S2_N_6_       353              1.38
+    AC21             N1_S2_P_10_       169              0.95
+    AC22         BP_2_TXCLK_IN_P      1716              1.25
+    AC23        BP_2_TXDATA_P_5_      1244              0.58
+     AD1     LINE_2_TXDATA_P_12_      1100              0.58
+     AD3                  N_3424      1684              0.07
+     AD5     LINE_2_RXDATA_P_13_      1404              0.00
+     AD9              N2_S1_N_4_       538              1.38
+    AD11              S1_N2_N_1_       217              1.38
+    AD16             S2_N1_N_13_       257              1.38
+    AD20              N1_S2_N_4_       298              1.38
+    AD22        BP_2_TXDATA_P_4_      1236              0.58
+    AD24        BP_2_TXDATA_N_8_      1307              1.74
+     AE1           9186_2_N_8736       852             -0.00
+     AE2     LINE_2_TXDATA_P_15_      1124              0.58
+     AE3    JTAG_9186_1_TDO_9186       667              2.16
+     AE4      LINE_2_RXDATA_N_9_      1347              0.00
+     AE5      LINE_2_RXDATA_P_7_      1292              0.00
+     AE6     LINE_2_RXDATA_P_11_      1356              0.00
+     AE7              N2_S1_N_0_       570              1.37
+     AE8     LINE_2_RXDATA_P_15_      1420              0.00
+     AE9              N2_S1_P_1_       313              0.96
+    AE10              N2_S1_N_8_       521              1.38
+    AE12              S1_N2_N_7_       201              1.38
+    AE13             S1_N2_N_10_       457              1.38
+    AE15              S2_N1_P_9_       401              0.96
+    AE16              N1_S2_N_0_       409              1.38
+    AE17              N1_S2_N_2_       345              1.38
+    AE18              N1_S2_P_1_       209              0.96
+    AE20             N1_S2_N_12_       170              1.38
+    AE21              N1_S2_P_9_       234              0.96
+    AE23        BP_2_TXDATA_N_5_      1251              1.73
+     AF1     LINE_2_TXDATA_N_12_      1107              1.74
+     AF3                  N_3425      1675              0.40
+     AF5              N2_S1_P_0_       577              0.96
+     AF7              N2_S1_P_2_       281              0.96
+    AF11             N2_S1_N_14_       282              1.38
+    AF14              S2_N1_P_3_       250              0.96
+    AF16              N1_S2_P_0_       377              0.96
+    AF18             S2_N1_N_15_       146              1.38
+    AF20              N1_S2_N_1_       266              1.39
+    AF22        BP_2_TXDATA_N_4_      1243              1.74
+    AF24        BP_2_TXDATA_P_8_      1300              0.58
+     AG1           9186_2_N_8742       851              2.25
+     AG2     LINE_2_RXDATA_N_13_      1411              0.00
+     AG3           9186_2_N_8741       836              2.25
+     AG4      LINE_2_RXDATA_N_2_      1219              0.00
+     AG5           9186_2_N_8734       820              2.25
+     AG6              N2_S1_N_2_       562              1.38
+     AG7              N2_S1_P_6_       314              0.96
+     AG8              N2_S1_N_6_       329              1.38
+    AG10             N2_S1_N_11_       441              1.38
+    AG11           9186_2_N_8737       780              0.00
+    AG13             S1_N2_N_11_       289              1.38
+    AG14           9186_2_N_1440       772              1.78
+    AG15              S2_N1_P_6_       226              1.38
+    AG16             S2_N1_P_13_       321              0.96
+    AG18             S2_N1_N_11_       354              1.37
+    AG19             S2_N1_P_15_       153              0.96
+    AG21        BP_2_TXDATA_P_0_      1156              1.74
+    AG23              N1_S2_P_4_       130              0.96
+     AH3      LINE_2_RXDATA_P_2_      1212              0.00
+     AH5     LINE_2_RXDATA_P_14_      1412              0.00
+     AH7              N2_S1_N_7_       569              1.38
+     AH9              N2_S1_N_5_       546              1.38
+    AH11              S1_N2_P_1_       233              0.96
+    AH14              S2_N1_N_0_       113              0.96
+    AH18             S2_N1_P_10_       178              0.96
+    AH22        BP_2_TXDATA_N_0_      1163              0.58
+     AJ3           9186_2_N_1437       660              2.17
+     AJ5           9186_2_N_8532       827              2.25
+     AJ6             N2_S1_P_12_       418              0.96
+     AJ7           9186_2_N_8527       787             -0.00
+    AJ08             N2_S1_N_13_       434              0.96
+     AJ9              N2_S1_P_5_       362              0.96
+    AJ10             N2_S1_P_11_       514              0.96
+    AJ11              S1_N2_P_4_       425              0.96
+    AJ12              S1_N2_P_8_       482              0.96
+    AJ13              S1_N2_N_9_       370              1.38
+    AJ14             S1_N2_N_13_       386              1.38
+    AJ15              S2_N1_N_6_       297              0.96
+    AJ16             S2_N1_N_12_       145              1.38
+    AJ17              S2_N1_P_4_       265              1.37
+     AK3      LINE_2_RXDATA_N_7_      1299              0.00
+     AK5             N2_S1_N_12_       330              1.38
+     AK7             N2_S1_P_13_       417              1.37
+     AK9              N2_S1_P_8_       481              0.97
+    AK11              S1_N2_N_4_       442              1.38
+    AK14             S1_N2_P_13_       338              0.96
+    AK16              S2_N1_N_9_       426              1.38
+    AK18              S2_N1_N_4_       290              0.96
+    AK20              S2_N1_P_5_       186              1.38
+    AK22             N1_S2_P_12_       218              0.96
+     AL5           9186_2_N_8740       811              2.25
+     AL6              S1_N2_N_3_       465              1.38
+     AL7           9186_2_N_8531       828              2.25
+     AL8              S1_N2_P_3_       489              0.95
+     AL9           9186_2_N_8738       788              0.00
+    AL10             N2_S1_P_14_       490              0.96
+    AL11              S1_N2_N_6_       273              1.38
+    AL12              S1_N2_N_8_       258              1.38
+    AL13              S1_N2_P_9_       337              0.96
+    AL14             S1_N2_P_11_       473              0.96
+    AL15              S2_N1_N_3_       210              1.38
+    AL17             S1_N2_N_14_       378              1.38
+    AL19             S1_N2_P_14_       322              0.95
+      B3           9186_2_N_3751      1676              0.00
+      B5           9186_2_N_2215       803              2.47
+     B14         BP_2_PPP_INS_6_       748              2.99
+     B16           9186_2_N_1358       763             -0.00
+     B18           MICRO_ADDR_8_         2              3.00
+     B20          MICRO_ADDR_11_        57              2.99
+     B22        BP_2_RXDATA_N_8_      1011              0.00
+      C4        LINE_2_RX_TOH_4_       657              2.99
+      C5          BP_2_RX_TOH_3_       650              2.99
+      C7         BP_2_RX_TOH_CLK       625              2.99
+     C12       LINE_2_PPP_INS_5_       692              3.00
+     C13       LINE_2_PPP_INS_6_       699              3.00
+     C14         BP_2_PPP_INS_5_       731              2.99
+     C15          MICRO_ADDR_12_        97              0.11
+     C16                  N_3365      1539              0.07
+     C17           MICRO_ADDR_9_        58              3.00
+     C18           9186_2_N_9781      1531             -0.00
+     C19          MICRO_ADDR_10_         9              3.00
+     C20           MICRO_DATA_1_        33              3.00
+      D1           9186_2_N_1419       859             -0.00
+      D3           9186_2_N_3785      1692              1.74
+      D9        LINE_2_RX_TOH_5_       609              2.99
+     D14           MICRO_ADDR_0_        90              0.02
+     D16                  N_3366      1563              0.11
+     D18              9186_2_CLK      1132              1.23
+     D20           MICRO_DATA_6_        73              3.00
+     D22        BP_2_RXDATA_P_2_       876              0.00
+      E4           9186_2_N_3784      1667              0.59
+      E5          BP_2_RX_TOH_1_       641              2.99
+      E7       LINE_2_RX_TOH_CLK       649              2.99
+      E8        LINE_2_RX_TOH_7_       633              2.99
+      E9        LINE_2_RX_TOH_1_       594              3.00
+     E11       LINE_2_PPP_INS_3_       675              2.99
+     E12                  N_5821      1579              0.13
+     E13         BP_2_PPP_INS_1_       716              2.99
+     E14       LINE_2_PPP_INS_EN       683              0.14
+     E15          MICRO_ADDR_13_        98              0.16
+     E16                  N_3362      1555              0.08
+     E17          9186_2_DS_WR_N      1140              0.62
+     E18             9186_2_CS_N      1139              0.87
+     E19           9186_2_N_6029      1508              0.05
+     E20           MICRO_DATA_3_        34              3.00
+     E21        BP_2_RXDATA_N_2_       883              0.00
+     E23           BP_2_REFCLK_N       708              1.01
+      F1     LINE_2_TXDATA_P_10_      1052              0.58
+      F3      LINE_2_TXDATA_N_7_      1003              1.74
+      F7           9186_2_N_3947      1619              0.06
+      F9          BP_2_RX_TOH_FP       642              3.00
+     F11           9186_2_N_3995      1596              0.16
+     F14           MICRO_ADDR_7_        50              3.00
+     F18          9186_2_RD_RW_N      1148              0.36
+     F20           9186_2_N_9778      1483             -0.00
+     F22       BP_2_TXDATA_P_15_      1388              0.58
+     F24       BP_2_TXDATA_N_11_      1331              1.74
+      G1           9186_2_N_3932       844              2.47
+      G3           9186_2_N_1424       835             -0.00
+      G4       LINE_2_TXCLK_IN_P      1708              1.27
+      G5           9186_2_N_3696      1636              0.00
+      G7           9186_2_N_3952      1612              0.15
+      G8          BP_2_RX_TOH_6_       618              2.99
+     G11       LINE_2_PPP_INS_2_       668              2.99
+     G12       LINE_2_PPP_INS_1_       691              3.00
+     G13         BP_2_PPP_INS_0_       724              2.99
+     G14      LINE_2_PPP_INS_CLK       578              2.99
+     G15           9186_2_N_1359       764             -0.00
+     G16                  N_3350      1540             -0.00
+     G18           9186_2_N_9777      1500             -0.00
+     G19       BP_2_RXDATA_P_13_      1076             -0.00
+     G20        BP_2_RXDATA_P_8_      1004              0.00
+     G21       BP_2_RXDATA_N_11_      1035             -0.00
+     G23       BP_2_TXDATA_P_14_      1380              0.58
+     G24           9186_2_N_8735       756              2.25
+      H1     LINE_2_TXDATA_N_10_      1059              1.74
+      H3      LINE_2_TXDATA_P_7_       996              0.58
+      H5           9186_2_N_1423       812             -0.00
+      H7          BP_2_RX_TOH_2_       634              3.00
+      H9        LINE_2_RX_TOH_2_       601              3.00
+     H11           9186_2_N_3990      1603              0.10
+     H14           MICRO_ADDR_1_        66              2.99
+     H18           MICRO_DATA_2_        26              3.00
+     H20           BP_2_REFCLK_P       707              1.11
+     H22       BP_2_TXDATA_N_15_      1395              1.74
+     H24       BP_2_TXDATA_P_11_      1324              0.58
+     J01           9186_2_N_3713       843             -0.00
+      J3      LINE_2_TXDATA_P_2_       916              0.58
+      J4           9186_2_N_3747      1660              0.00
+      J5         9186_2_REF_SYNC       700              3.00
+      J6           9186_2_N_3712       796             -0.00
+      J7          BP_2_RX_TOH_0_       610              3.00
+     J12       LINE_2_PPP_INS_0_       676              2.99
+     J13       LINE_2_PPP_INS_FP       585              2.99
+     J14         BP_2_PPP_INS_FP       586              2.99
+     J16                  N_3360      1564              0.11
+     J17           9186_2_N_9783      1507             -0.00
+     J18           MICRO_DATA_4_        25              3.00
+     J19       BP_2_RXDATA_P_14_      1084             -0.00
+     J21       BP_2_RXDATA_N_10_      1027             -0.00
+     J23       BP_2_TXDATA_N_14_      1387              1.73
+      K5           9186_2_N_3927       819              2.47
+      K9        LINE_2_RX_TOH_0_       626              3.00
+     K14        BP_2_PPP_INS_CLK       593              3.00
+     K16                  N_3359      1547              0.04
+     K18           MICRO_DATA_7_        17              3.00
+     K22       BP_2_RXDATA_P_12_      1068              0.00
+     K24       BP_2_RXDATA_N_12_      1075              0.00
+      L1          LINE_2_TXCLK_N       939              1.12
+      L2           9186_2_N_3750      1700              0.00
+      L3           9186_2_N_3749      1683              0.00
+      L4           9186_2_N_3748      1651              0.00
+      L5           9186_2_N_3926       795             -0.00
+     L06            9186_2_RST_N      1155              1.24
+      L8           9186_2_N_3953      1611              0.14
+      L9        LINE_2_RX_TOH_3_       617              2.99
+     L13         BP_2_PPP_INS_3_       740              2.99
+     L14          MICRO_ADDR_14_       105              0.20
+     L15           9186_2_N_1357       771             -0.00
+     L16                  N_3364      1571              0.12
+     L17           9186_2_N_9782      1515             -0.00
+     L18       BP_2_RXDATA_N_14_      1091             -0.00
+     L19       BP_2_RXDATA_P_15_      1092             -0.00
+     L20       BP_2_RXDATA_N_15_      1099             -0.00
+     L21       BP_2_RXDATA_P_10_      1020             -0.00
+     L22        BP_2_RXDATA_N_9_      1019             -0.00
+     L23        BP_2_RXDATA_P_9_      1012             -0.00
+     L24        BP_2_RXDATA_P_7_       964             -0.00
+      M1      LINE_2_TXDATA_N_2_       923              1.75
+      M3          LINE_2_TXCLK_P       932              1.26
+      M5       LINE_2_TXCLK_IN_N      1715              1.25
+     M11           9186_2_N_3993      1595              0.16
+     M14           MICRO_ADDR_5_        65              3.00
+     M16         9186_2_AS_ALE_N      1147              0.46
+     M18       BP_2_RXDATA_N_13_      1083             -0.00
+     M20       BP_2_RXDATA_P_11_      1028             -0.00
+     M22        BP_2_RXDATA_N_7_       971             -0.00
+     M24        BP_2_RXDATA_N_4_       947              0.00
+      N1      LINE_2_TXDATA_P_3_       924              0.59
+      N2      LINE_2_TXDATA_N_3_       931              1.74
+      N3      LINE_2_TXDATA_P_1_       908              0.59
+      N4      LINE_2_TXDATA_N_1_       915              1.74
+      N6      LINE_2_TXDATA_P_0_       900              0.59
+      N7      LINE_2_TXDATA_N_0_       907              1.74
+      N9      LINE_2_TXDATA_N_5_       987              1.74
+     N13         BP_2_PPP_INS_4_       715              2.99
+     N14           MICRO_ADDR_4_         1              3.01
+     N15          MICRO_ADDR_15_        89              0.10
+     N16        BP_2_RXDATA_N_0_       867              0.00
+     N18        BP_2_RXDATA_P_6_       956              0.00
+     N19        BP_2_RXDATA_N_6_       963             -0.00
+     N20        BP_2_RXDATA_P_5_       948              0.00
+     N21        BP_2_RXDATA_N_5_       955              0.00
+     N22        BP_2_RXDATA_P_4_       940              0.00
+     N23        BP_2_RXDATA_P_3_       884             -0.00
+     N24        BP_2_RXDATA_N_3_       891             -0.00
+      P3      LINE_2_TXDATA_N_4_       979              1.74
+      P5      LINE_2_TXDATA_P_4_       972              0.59
+      P9      LINE_2_TXDATA_P_5_       980              0.58
+     P11           9186_2_N_3992      1587              0.15
+     P14           MICRO_ADDR_3_        49              3.00
+     P18        BP_2_RXDATA_P_1_       868              0.00
+     P20        BP_2_RXDATA_P_0_       860              0.00
+     P22        BP_2_RXDATA_N_1_       875              0.00
+      R3      LINE_2_TXDATA_N_8_      1043              1.74
+      R6      LINE_2_TXDATA_P_8_      1036              0.58
+      R8      LINE_2_TXDATA_P_6_       988              0.58
+      R9      LINE_2_TXDATA_N_6_       995              1.74
+     R10      LINE_2_TXDATA_P_9_      1044              0.58
+     R12           9186_2_N_3991      1580              0.14
+     R13           MICRO_ADDR_2_        42              3.00
+     R15       BP_2_TXDATA_N_12_      1371              0.58
+     R16            BP_2_RXCLK_N       899              0.00
+     R17            BP_2_RXCLK_P       892              0.00
+     R19       BP_2_TXDATA_N_13_      1379              1.74
+     R22       BP_2_TXDATA_P_13_      1372              0.58
+      T1           9186_2_N_3789      1699              1.74
+      T3     LINE_2_TXDATA_P_11_      1060              0.59
+      T5           9186_2_N_3788      1628              0.59
+      T7     LINE_2_TXDATA_N_11_      1067              1.74
+      T9      LINE_2_TXDATA_N_9_      1051              1.73
+     T11     LINE_2_TXDATA_P_13_      1108              0.58
+     T14       BP_2_TXDATA_P_12_      1364              1.73
+     T16        BP_2_TXDATA_N_7_      1267              1.73
+     T18       BP_2_TXDATA_P_10_      1316              0.58
+     T20        BP_2_TXDATA_N_9_      1315              1.74
+     T22        BP_2_TXDATA_P_9_      1308              0.58
+     T24       BP_2_TXDATA_N_10_      1323              1.74
+      U1            JTAG_CNTL_1_        74              2.99
+      U3     LINE_2_TXDATA_P_14_      1116              0.58
+      U5            JTAG_CNTL_0_        81             -0.00
+      U6     LINE_2_TXDATA_N_14_      1123              1.74
+      U7            JTAG_CNTL_2_       106              0.18
+      U8          LINE_2_RXCLK_P      1228              0.00
+      U9          LINE_2_RXCLK_N      1235              0.00
+     U10     LINE_2_TXDATA_N_13_      1115              1.74
+     U12              S1_N2_P_0_       506              0.96
+     U13              S2_N1_N_1_       450              0.96
+     U15        BP_2_TXDATA_P_7_      1260              0.58
+     U16        BP_2_TXDATA_N_3_      1187              1.74
+     U17        BP_2_TXDATA_P_3_      1180              0.58
+     U19        BP_2_TXDATA_P_6_      1252              0.58
+     U22        BP_2_TXDATA_N_6_      1259              1.73
+      V3      LINE_2_RXDATA_P_1_      1204              0.00
+      V5      LINE_2_RXDATA_N_1_      1211              0.00
+      V9      LINE_2_RXDATA_N_0_      1203              0.00
+     V11              S1_N2_N_0_       202              1.39
+     V14              S2_N1_P_1_       393              1.38
+     V16        BP_2_TXDATA_P_2_      1172              0.58
+     V20        BP_2_TXDATA_P_1_      1164              0.58
+     V22        BP_2_TXDATA_N_1_      1171              1.74
+      W1      LINE_2_RXDATA_N_3_      1227              0.00
+      W2      LINE_2_RXDATA_P_3_      1220              0.00
+      W3           9186_2_N_3741      1659              0.00
+      W4      LINE_2_RXDATA_N_4_      1275              0.00
+      W5      LINE_2_RXDATA_P_4_      1268              0.00
+      W6      LINE_2_RXDATA_N_5_      1283              0.00
+      W7      LINE_2_RXDATA_P_5_      1276              0.00
+      W9      LINE_2_RXDATA_P_0_      1196              0.00
+     W10             N2_S1_N_10_       530              1.38
+     W11             N2_S1_P_15_       505              0.96
+     W12              S1_N2_N_5_       553              1.38
+     W13             S1_N2_P_12_       458              0.96
+     W14              S2_N1_N_2_       394              1.38
+     W15              S2_N1_P_7_       162              0.96
+     W16        BP_2_TXDATA_N_2_      1179              1.74
+     W18             N1_S2_N_14_       346              1.39
+     W19             N1_S2_P_14_       161              0.96
+     W21             N1_S2_N_15_       121              1.38
+     W22             N1_S2_P_15_       114              0.96
+     W23            BP_2_TXCLK_N      1195              0.58
+     W24            BP_2_TXCLK_P      1188              1.74
+      Y1           9186_2_N_3742      1691              0.00
+      Y3      LINE_2_RXDATA_N_6_      1291              0.00
+      Y5      LINE_2_RXDATA_P_9_      1340              0.00
+      Y7     LINE_2_RXDATA_N_11_      1363              0.00
+      Y9              N2_S1_P_9_       561              0.96
+     Y11             N2_S1_N_15_       498              1.37
+     Y14              S2_N1_P_2_       154              0.96
+     Y16              S2_N1_N_8_       410              1.37
+     Y18              N1_S2_P_7_       193              0.96
+     Y20              N1_S2_N_9_       241              1.38
+     Y22             N1_S2_P_13_       249              0.96
+     Y24         BP_2_TXCLK_IN_N      1723              1.23
+U4 
+ (VSC9186)	
+	LOC=U4, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  138: Pin AE12: Node: S2_N1_N_7_
+ Nail  145: Pin AA13: Node: S2_N1_N_12_
+ Nail  146: Pin AB14: Node: S2_N1_N_15_
+ Nail  210: Pin AL6: Node: S2_N1_N_3_
+ Nail  257: Pin AJ14: Node: S2_N1_N_13_
+ Nail  282: Pin W18: Node: N2_S1_N_14_
+ Nail  329: Pin AC19: Node: N2_S1_N_6_
+ Nail  330: Pin AE20: Node: N2_S1_N_12_
+ Nail  354: Pin AG13: Node: S2_N1_N_11_
+ Nail  394: Pin AC11: Node: S2_N1_N_2_
+ Nail  410: Pin AL12: Node: S2_N1_N_8_
+ Nail  426: Pin AJ13: Node: S2_N1_N_9_
+ Nail  441: Pin AA23: Node: N2_S1_N_11_
+ Nail  466: Pin AL17: Node: S2_N1_N_14_
+ Nail  498: Pin W21: Node: N2_S1_N_15_
+ Nail  521: Pin AB22: Node: N2_S1_N_8_
+ Nail  530: Pin AA21: Node: N2_S1_N_10_
+ Nail  538: Pin AD20: Node: N2_S1_N_4_
+ Nail  537: Pin Y20: Node: N2_S1_N_9_
+ Nail  545: Pin AH20: Node: N2_S1_N_3_
+ Nail  546: Pin AA19: Node: N2_S1_N_5_
+ Nail  562: Pin AE17: Node: N2_S1_N_2_
+ Nail  570: Pin AE16: Node: N2_S1_N_0_
+ Nail  569: Pin AE19: Node: N2_S1_N_7_
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+AG2 AG4 AG12 AG14 AG16 AG20 AG22 AG24 AH2 AH4 AH6 AH10 AH12 AH14 AH16 AH18 
+AH20 AH22 AH24 AJ3 AJ5 AJ7 AJ11 AJ13 
+U4 
+ (VSC9186)	
+	LOC=U4, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  113: Pin V11: Node: S2_N1_N_0_
+ Nail  138: Pin AE12: Node: S2_N1_N_7_
+ Nail  145: Pin AA13: Node: S2_N1_N_12_
+ Nail  146: Pin AB14: Node: S2_N1_N_15_
+ Nail  210: Pin AL6: Node: S2_N1_N_3_
+ Nail  257: Pin AJ14: Node: S2_N1_N_13_
+ Nail  282: Pin W18: Node: N2_S1_N_14_
+ Nail  297: Pin AL11: Node: S2_N1_N_6_
+ Nail  329: Pin AC19: Node: N2_S1_N_6_
+ Nail  330: Pin AE20: Node: N2_S1_N_12_
+ Nail  354: Pin AG13: Node: S2_N1_N_11_
+ Nail  394: Pin AC11: Node: S2_N1_N_2_
+ Nail  426: Pin AJ13: Node: S2_N1_N_9_
+ Nail  521: Pin AB22: Node: N2_S1_N_8_
+ Nail  538: Pin AD20: Node: N2_S1_N_4_
+ Nail  537: Pin Y20: Node: N2_S1_N_9_
+ Nail  546: Pin AA19: Node: N2_S1_N_5_
+ Nail  562: Pin AE17: Node: N2_S1_N_2_
+ Nail  569: Pin AE19: Node: N2_S1_N_7_
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+AF22 AG2 AG4 AG10 AG12 AG16 AG20 AG22 AG24 AH4 AH10 AH14 AH16 AH18 AH20 AH22 
+AH24 AJ7 AJ11 
+U4 
+ (VSC9186)	
+	LOC=U4, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  113: Pin V11: Node: S2_N1_N_0_
+ Nail  145: Pin AA13: Node: S2_N1_N_12_
+ Nail  282: Pin W18: Node: N2_S1_N_14_
+ Nail  521: Pin AB22: Node: N2_S1_N_8_
+ Nail  546: Pin AA19: Node: N2_S1_N_5_
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+AF22 AG22 AH16 AH22 AJ11 
+U4 
+ (VSC9186)	
+	LOC=U4, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  113: Pin V11: Node: S2_N1_N_0_
+ Nail  145: Pin AA13: Node: S2_N1_N_12_
+ Nail  282: Pin W18: Node: N2_S1_N_14_
+ Nail  521: Pin AB22: Node: N2_S1_N_8_
+ Nail  546: Pin AA19: Node: N2_S1_N_5_
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+AF22 AG22 AH16 AH22 AJ11 
+U4 
+ (VSC9186)	
+	LOC=U4, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  113: Pin V11: Node: S2_N1_N_0_
+ Nail  138: Pin AE12: Node: S2_N1_N_7_
+ Nail  145: Pin AA13: Node: S2_N1_N_12_
+ Nail  210: Pin AL6: Node: S2_N1_N_3_
+ Nail  257: Pin AJ14: Node: S2_N1_N_13_
+ Nail  282: Pin W18: Node: N2_S1_N_14_
+ Nail  521: Pin AB22: Node: N2_S1_N_8_
+ Nail  538: Pin AD20: Node: N2_S1_N_4_
+ Nail  546: Pin AA19: Node: N2_S1_N_5_
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+AF22 AG4 AG12 AG22 AG24 AH14 AH16 AH22 AJ11 
+U4 
+ (VSC9186)	
+	LOC=U4, DESC=LINE INTERFACE STS48/192 VSC9186
+ Nail  113: Pin V11: Node: S2_N1_N_0_
+ Nail  145: Pin AA13: Node: S2_N1_N_12_
+ Nail  257: Pin AJ14: Node: S2_N1_N_13_
+ Nail  282: Pin W18: Node: N2_S1_N_14_
+ Nail  521: Pin AB22: Node: N2_S1_N_8_
+ Nail  538: Pin AD20: Node: N2_S1_N_4_
+ Nail  546: Pin AA19: Node: N2_S1_N_5_
+
+BASICSCAN TEST FAILED:
+
+OPEN OR STUCK FAILURE AT PIN(S):
+
+AF22 AG22 AG24 AH14 AH16 AH22 AJ11 
+
+
+DEVICE LABEL:   U4
+DEVICE NAME:    U4
+DEVICE TYPE:    VSC9186
+
+     Pin               Node           Nail           Voltage
+
+      A4           9186_1_N_3715       929             -0.00
+      A6     9186_1_LN_TX_TOH_0_       953             -0.00
+      A7          BP_1_RX_TOH_4_       674              2.99
+      A9          BP_1_RX_TOH_7_       682              2.99
+     A10           9186_1_N_3994      1505              0.05
+     A11                  N_3925      1521              0.07
+     A12       LINE_1_PPP_INS_4_       643              2.99
+     A13       LINE_1_PPP_INS_7_       612              3.00
+     A14         BP_1_PPP_INS_2_       659              2.99
+     A15           MICRO_ADDR_6_        41              3.00
+     A16           9186_1_N_9780      1545             -0.00
+     A17         BP_1_PPP_INS_7_       754              2.99
+     A18           MICRO_DATA_0_        10              3.00
+     A19         BP_1_PPP_INS_EN       761              0.14
+     A20           MICRO_DATA_5_        18              3.00
+     A21           9186_1_N_8322       762              2.47
+     AA1      LINE_1_RXDATA_P_6_       825              1.22
+     AA2           9186_1_N_3743      1441              0.00
+     AA4      LINE_1_RXDATA_P_8_       841              1.22
+     AA5     LINE_1_RXDATA_N_12_       874              1.22
+     AA6     LINE_1_RXDATA_P_12_       873              1.22
+     AA7           9186_1_N_3746      1489              0.00
+     AA9              N1_S2_P_4_       130              0.96
+    AA10              N1_S2_N_9_       241              1.38
+    AA11             N1_S2_P_10_       169              0.95
+    AA12              S2_N1_P_5_       186              0.96
+    AA13             S2_N1_N_12_       145              1.38
+    AA14              S1_N2_N_7_       201              1.38
+    AA15              S1_N2_P_8_       482              0.96
+    AA18              N2_S1_P_6_       314              0.96
+    AA19              N2_S1_N_5_       546              1.38
+    AA20              N2_S1_P_5_       362              0.96
+    AA21             N2_S1_N_10_       530              1.38
+    AA22             N2_S1_P_11_       514              0.96
+    AA23             N2_S1_N_11_       441              1.38
+    AA24             N2_S1_N_13_       434              1.37
+     AB1     LINE_1_RXDATA_N_10_       858              1.22
+     AB3     LINE_1_RXDATA_P_10_       857              1.22
+     AB7     LINE_1_RXDATA_N_14_       890              1.22
+     AB9              N1_S2_P_3_       177              0.96
+    AB11              S2_N1_P_2_       154              0.96
+    AB14             S2_N1_N_15_       146              1.38
+    AB16             S1_N2_N_14_       378              1.38
+    AB18              N2_S1_P_3_       513              0.96
+    AB22              N2_S1_N_8_       521              1.38
+    AB24              N2_S1_P_8_       481              0.97
+     AC2     LINE_1_TXDATA_N_15_      1402              1.75
+     AC4      LINE_1_RXDATA_N_8_       842              1.22
+     AC6           9186_1_N_3745      1482              0.00
+     AC8     LINE_1_RXDATA_N_15_       898              1.22
+    AC10              N1_S2_P_7_       193              0.96
+    AC11              S2_N1_N_2_       394              1.38
+    AC12              S2_N1_P_7_       162              0.96
+    AC13             S2_N1_P_10_       178              0.96
+    AC14             S2_N1_P_15_       153              0.96
+    AC15             S1_N2_N_10_       457              1.38
+    AC16             S1_N2_P_14_       322              0.95
+    AC17              N2_S1_P_2_       281              0.96
+    AC19              N2_S1_N_6_       329              1.38
+    AC21             N2_S1_P_10_       385              0.96
+    AC22         BP_1_TXCLK_IN_P      1698              1.26
+    AC23        BP_1_TXDATA_P_5_      1225              0.58
+     AD1     LINE_1_TXDATA_P_12_      1377              0.58
+     AD3                  N_3325      1433              0.10
+     AD5     LINE_1_RXDATA_P_13_       881              1.22
+     AD9              N1_S2_N_4_       298              1.38
+    AD11              S2_N1_N_1_       450              1.38
+    AD14              S1_N2_P_0_       506              0.96
+    AD16             S1_N2_N_13_       386              1.38
+    AD20              N2_S1_N_4_       538              1.38
+    AD22        BP_1_TXDATA_P_4_      1217              0.58
+    AD24        BP_1_TXDATA_N_8_      1282              1.74
+     AE2     LINE_1_TXDATA_P_15_      1401              0.58
+     AE3    JTAG_FPGA_TDO_9186_1       579              0.50
+     AE4      LINE_1_RXDATA_N_9_       850              1.22
+     AE5      LINE_1_RXDATA_P_7_       833              1.22
+     AE6     LINE_1_RXDATA_P_11_       865              1.22
+     AE7              N1_S2_N_0_       409              1.38
+     AE8     LINE_1_RXDATA_P_15_       897              1.22
+     AE9              N1_S2_P_1_       209              0.96
+    AE10              N1_S2_N_8_       242              1.39
+    AE12              S2_N1_N_7_       138              1.38
+    AE15              S1_N2_P_9_       337              0.96
+    AE16              N2_S1_N_0_       570              1.37
+    AE17              N2_S1_N_2_       562              1.38
+    AE18              N2_S1_P_1_       313              0.96
+    AE19              N2_S1_N_7_       569              1.38
+    AE20             N2_S1_N_12_       330              1.38
+    AE21              N2_S1_P_9_       561              0.96
+    AE23        BP_1_TXDATA_N_5_      1226              1.74
+     AF1     LINE_1_TXDATA_N_12_      1378              1.74
+     AF3                  N_3326      1457              0.37
+     AF5              N1_S2_P_0_       377              0.96
+     AF7              N1_S2_P_2_       129              0.96
+     AF9              N1_S2_N_1_       266              1.39
+    AF11             N1_S2_N_14_       346              1.39
+    AF14              S1_N2_P_3_       489              0.95
+    AF16              N2_S1_P_0_       577              0.96
+    AF18             S1_N2_N_15_       554              1.38
+    AF22        BP_1_TXDATA_N_4_      1218              1.74
+    AF24        BP_1_TXDATA_P_8_      1281              0.58
+     AG1           9186_1_N_8742       905              2.25
+     AG2     LINE_1_RXDATA_N_13_       882              1.22
+     AG4      LINE_1_RXDATA_N_2_       786              1.22
+     AG5           9186_1_N_8734       938              2.26
+     AG6              N1_S2_N_2_       345              1.38
+     AG7              N1_S2_P_6_       122              0.96
+     AG8              N1_S2_N_6_       353              1.38
+    AG10             N1_S2_N_11_       225              1.38
+    AG11           9186_1_N_8737       978              0.00
+    AG12              S2_N1_P_6_       226              0.96
+    AG13             S2_N1_N_11_       354              1.37
+    AG14           9186_1_N_1440       985              1.78
+    AG16             S1_N2_P_13_       338              0.96
+    AG17             S1_N2_P_11_       473              0.96
+    AG18             S1_N2_N_11_       289              1.38
+    AG19             S1_N2_P_15_       522              0.96
+    AG21        BP_1_TXDATA_P_0_      1137              0.58
+     AH3      LINE_1_RXDATA_P_2_       785              1.22
+     AH5     LINE_1_RXDATA_P_14_       889              1.22
+     AH9              N1_S2_N_5_       305              1.38
+    AH11              S2_N1_P_1_       393              0.96
+    AH14              S1_N2_N_0_       202              1.39
+    AH16             S1_N2_P_12_       458              0.96
+    AH18             S1_N2_P_10_       306              0.96
+    AH20              N2_S1_N_3_       545              1.38
+    AH22        BP_1_TXDATA_N_0_      1138              1.74
+     AJ3           9186_1_N_1437       587              0.69
+     AJ5           9186_1_N_8532       945              2.25
+     AJ6             N1_S2_P_12_       218              0.96
+     AJ7           9186_1_N_8527       962              0.00
+    AJ08             N1_S2_N_13_       185              1.38
+     AJ9              N1_S2_P_5_       137              0.96
+    AJ11              S2_N1_P_4_       265              0.96
+    AJ12              S2_N1_P_8_       402              0.96
+    AJ13              S2_N1_N_9_       426              1.38
+    AJ14             S2_N1_N_13_       257              1.38
+    AJ15              S1_N2_N_6_       273              1.38
+    AJ16             S1_N2_N_12_       449              1.38
+    AJ17              S1_N2_P_4_       425              0.96
+    AJ19              S1_N2_N_5_       553              1.38
+     AK3      LINE_1_RXDATA_N_7_       834              1.22
+     AK5             N1_S2_N_12_       170              1.38
+     AK7             N1_S2_P_13_       249              0.96
+     AK9              N1_S2_P_8_       194              0.96
+    AK11              S2_N1_N_4_       290              1.38
+    AK14             S2_N1_P_13_       321              0.96
+    AK16              S1_N2_N_9_       370              1.38
+    AK18              S1_N2_N_4_       442              1.38
+    AK20              S1_N2_P_5_       529              0.96
+    AK22             N2_S1_P_12_       418              0.97
+     AL5           9186_1_N_8740       930              2.25
+     AL6              S2_N1_N_3_       210              1.38
+     AL7           9186_1_N_8531       954              2.25
+     AL8              S2_N1_P_3_       250              0.96
+     AL9           9186_1_N_8738       970              0.00
+    AL10             N1_S2_P_14_       161              0.96
+    AL11              S2_N1_N_6_       297              1.38
+    AL12              S2_N1_N_8_       410              1.37
+    AL13              S2_N1_P_9_       401              0.96
+    AL15              S1_N2_N_3_       465              1.38
+    AL17             S2_N1_N_14_       466              1.38
+    AL19             S2_N1_P_14_       433              0.96
+      B3           9186_1_N_3751      1418              0.00
+      B5           9186_1_N_2215       937              2.47
+     B14         BP_1_PPP_INS_6_       635              2.99
+     B16           9186_1_N_1358       993             -0.00
+     B18           MICRO_ADDR_8_         2              3.00
+     B20          MICRO_ADDR_11_        57              2.99
+     B22        BP_1_RXDATA_N_8_      1066             -0.00
+      C4        LINE_1_RX_TOH_4_       730              2.99
+      C5          BP_1_RX_TOH_3_       738              2.99
+      C7         BP_1_RX_TOH_CLK       665              3.00
+      C9        LINE_1_RX_TOH_6_       690              2.99
+     C12       LINE_1_PPP_INS_5_       603              3.00
+     C13       LINE_1_PPP_INS_6_       588              2.99
+     C14         BP_1_PPP_INS_5_       644              2.99
+     C15          MICRO_ADDR_12_        97              0.05
+     C16                  N_3268      1553              0.03
+     C17           MICRO_ADDR_9_        58              3.00
+     C18           9186_1_N_9781      1601             -0.00
+     C19          MICRO_ADDR_10_         9              3.00
+     C20           MICRO_DATA_1_        33              3.00
+      D1           9186_1_N_1419       914             -0.00
+      D3           9186_1_N_3785      1425              1.74
+      D7        LINE_1_RX_TOH_FP       697              2.99
+      D9        LINE_1_RX_TOH_5_       706              2.99
+     D14           MICRO_ADDR_0_        90              0.02
+     D16                  N_3269      1609              0.03
+     D18              9186_1_CLK      1113              0.02
+     D20           MICRO_DATA_6_        73              3.00
+     D22        BP_1_RXDATA_P_2_      1017              0.00
+      E4           9186_1_N_3784      1450              0.58
+      E5          BP_1_RX_TOH_1_       737              2.99
+      E6           9186_1_N_3948      1497              0.02
+      E7       LINE_1_RX_TOH_CLK       689              3.00
+      E8        LINE_1_RX_TOH_7_       729              2.99
+      E9        LINE_1_RX_TOH_1_       673              2.99
+     E11       LINE_1_PPP_INS_3_       595              2.99
+     E12                  N_3924      1513              0.05
+     E13         BP_1_PPP_INS_1_       652              2.99
+     E14       LINE_1_PPP_INS_EN       619              0.14
+     E15          MICRO_ADDR_13_        98              0.06
+     E16                  N_3265      1569              0.01
+     E17          9186_1_DS_WR_N      1121              0.04
+     E18             9186_1_CS_N      1114              0.03
+     E19           9186_1_N_6029      1610              0.02
+     E20           MICRO_DATA_3_        34              3.00
+     E21        BP_1_RXDATA_N_2_      1018              0.00
+     E23           BP_1_REFCLK_N       620              1.01
+      F1     LINE_1_TXDATA_P_10_      1329              0.58
+      F3      LINE_1_TXDATA_N_7_      1274              1.75
+      F7           9186_1_N_3947      1481              0.05
+      F9          BP_1_RX_TOH_FP       746              2.99
+     F14           MICRO_ADDR_7_        50              3.00
+     F16           9186_1_N_9779      1537             -0.00
+     F18          9186_1_RD_RW_N      1129              0.04
+     F20           9186_1_N_9778      1618             -0.00
+     F22       BP_1_TXDATA_P_15_      1369              0.58
+     F24       BP_1_TXDATA_N_11_      1306              1.74
+      G3           9186_1_N_1424       921             -0.00
+      G4       LINE_1_TXCLK_IN_P      1690              1.26
+      G5           9186_1_N_3696      1458              0.00
+      G8          BP_1_RX_TOH_6_       658              2.99
+     G11       LINE_1_PPP_INS_2_       596              3.00
+     G12       LINE_1_PPP_INS_1_       611              3.00
+     G13         BP_1_PPP_INS_0_       651              2.99
+     G14      LINE_1_PPP_INS_CLK       745              3.00
+     G15           9186_1_N_1359       977             -0.00
+     G16                  N_3347      1561             -0.00
+     G18           9186_1_N_9777      1578             -0.00
+     G19       BP_1_RXDATA_P_13_      1090             -0.00
+     G20        BP_1_RXDATA_P_8_      1065             -0.00
+     G21       BP_1_RXDATA_N_11_      1713             -0.00
+     G23       BP_1_TXDATA_P_14_      1361              0.59
+     G24           9186_1_N_8735       994              2.25
+      H1     LINE_1_TXDATA_N_10_      1330              1.74
+      H3      LINE_1_TXDATA_P_7_      1273              0.58
+      H5           9186_1_N_1423       946             -0.00
+      H7          BP_1_RX_TOH_2_       681              2.99
+      H9        LINE_1_RX_TOH_2_       713              2.99
+     H11           9186_1_N_3990      1506              0.04
+     H14           MICRO_ADDR_1_        66              2.99
+     H18           MICRO_DATA_2_        26              3.00
+     H20           BP_1_REFCLK_P       627              1.11
+     H22       BP_1_TXDATA_N_15_      1370              1.74
+     H24       BP_1_TXDATA_P_11_      1305              0.58
+     J01           9186_1_N_3713       906             -0.00
+      J2           9186_1_N_3786      1442              0.58
+      J3      LINE_1_TXDATA_P_2_      1193              0.58
+      J4           9186_1_N_3747      1473              0.00
+      J5         9186_1_REF_SYNC       636              2.99
+      J6           9186_1_N_3712       969             -0.00
+      J7          BP_1_RX_TOH_0_       666              2.99
+     J12       LINE_1_PPP_INS_0_       604              3.00
+     J13       LINE_1_PPP_INS_FP       698              3.00
+     J14         BP_1_PPP_INS_FP       705              2.99
+     J16                  N_3263      1546              0.02
+     J17           9186_1_N_9783      1594             -0.00
+     J18           MICRO_DATA_4_        25              3.00
+     J19       BP_1_RXDATA_P_14_      1097             -0.00
+     J21       BP_1_RXDATA_N_10_      1074             -0.00
+     J23       BP_1_TXDATA_N_14_      1362              1.74
+      K5           9186_1_N_3927       961              2.47
+      K9        LINE_1_RX_TOH_0_       714              2.99
+     K14        BP_1_PPP_INS_CLK       721              2.99
+     K16                  N_3262      1570              0.03
+     K18           MICRO_DATA_7_        17              3.00
+     K22       BP_1_RXDATA_P_12_      1082             -0.00
+     K24       BP_1_RXDATA_N_12_      1089             -0.00
+      L1          LINE_1_TXCLK_N      1210              1.07
+      L2           9186_1_N_3750      1409              0.00
+      L3           9186_1_N_3749      1434              0.00
+      L4           9186_1_N_3748      1449              0.00
+      L5           9186_1_N_3926       922             -0.00
+     L06            9186_1_RST_N      1130              0.05
+      L8           9186_1_N_3953      1498              0.00
+      L9        LINE_1_RX_TOH_3_       722              2.99
+     L13         BP_1_PPP_INS_3_       753              2.99
+     L14          MICRO_ADDR_14_       105              0.08
+     L15           9186_1_N_1357       986             -0.00
+     L16                  N_3267      1554              0.04
+     L17           9186_1_N_9782      1593             -0.00
+     L18       BP_1_RXDATA_N_14_      1098             -0.00
+     L19       BP_1_RXDATA_P_15_      1105             -0.00
+     L20       BP_1_RXDATA_N_15_      1106             -0.00
+     L21       BP_1_RXDATA_P_10_      1073             -0.00
+     L22        BP_1_RXDATA_N_9_      1714             -0.00
+     L23        BP_1_RXDATA_P_9_      1721             -0.00
+     L24        BP_1_RXDATA_P_7_      1057             -0.00
+      M1      LINE_1_TXDATA_N_2_      1194              1.74
+      M3          LINE_1_TXCLK_P      1209              1.32
+      M5       LINE_1_TXCLK_IN_N      1697              1.24
+     M11           9186_1_N_3993      1514              0.06
+     M14           MICRO_ADDR_5_        65              3.00
+     M16         9186_1_AS_ALE_N      1122              0.04
+     M18       BP_1_RXDATA_N_13_      1729             -0.00
+     M20       BP_1_RXDATA_P_11_      1081             -0.00
+     M22        BP_1_RXDATA_N_7_      1058             -0.00
+     M24        BP_1_RXDATA_N_4_      1034             -0.00
+      N1      LINE_1_TXDATA_P_3_      1201              0.58
+      N2      LINE_1_TXDATA_N_3_      1202              1.74
+      N3      LINE_1_TXDATA_P_1_      1185              0.59
+      N4      LINE_1_TXDATA_N_1_      1186              1.74
+      N6      LINE_1_TXDATA_P_0_      1177              0.58
+      N7      LINE_1_TXDATA_N_0_      1178              1.75
+      N9      LINE_1_TXDATA_N_5_      1258              1.74
+     N11           9186_1_N_3996      1530              0.06
+     N13         BP_1_PPP_INS_4_       628              2.99
+     N14           MICRO_ADDR_4_         1              3.00
+     N15          MICRO_ADDR_15_        89              0.04
+     N16        BP_1_RXDATA_N_0_      1002              0.00
+     N18        BP_1_RXDATA_P_6_      1049             -0.00
+     N19        BP_1_RXDATA_N_6_      1050             -0.00
+     N20        BP_1_RXDATA_P_5_      1041             -0.00
+     N21        BP_1_RXDATA_N_5_      1042             -0.00
+     N22        BP_1_RXDATA_P_4_      1706              0.00
+     N23        BP_1_RXDATA_P_3_      1722             -0.00
+     N24        BP_1_RXDATA_N_3_      1025              0.00
+      P3      LINE_1_TXDATA_N_4_      1250              1.74
+      P5      LINE_1_TXDATA_P_4_      1249              0.58
+      P9      LINE_1_TXDATA_P_5_      1257              0.58
+     P11           9186_1_N_3992      1522              0.06
+     P14           MICRO_ADDR_3_        49              3.00
+     P18        BP_1_RXDATA_P_1_      1009              0.00
+     P20        BP_1_RXDATA_P_0_      1001              0.00
+     P22        BP_1_RXDATA_N_1_      1010              0.00
+      R3      LINE_1_TXDATA_N_8_      1314              1.74
+      R6      LINE_1_TXDATA_P_8_      1313              0.58
+      R8      LINE_1_TXDATA_P_6_      1265              0.58
+      R9      LINE_1_TXDATA_N_6_      1266              1.74
+     R10      LINE_1_TXDATA_P_9_      1321              0.58
+     R12           9186_1_N_3991      1529              0.05
+     R13           MICRO_ADDR_2_        42              3.00
+     R15       BP_1_TXDATA_N_12_      1346              1.74
+     R16            BP_1_RXCLK_N      1033              0.00
+     R17            BP_1_RXCLK_P      1026              0.00
+     R19       BP_1_TXDATA_N_13_      1354              1.74
+     R22       BP_1_TXDATA_P_13_      1353              0.59
+      T1           9186_1_N_3789      1417              1.74
+      T3     LINE_1_TXDATA_P_11_      1337              0.58
+      T5           9186_1_N_3788      1474              0.58
+      T7     LINE_1_TXDATA_N_11_      1338              1.75
+      T9      LINE_1_TXDATA_N_9_      1322              1.74
+     T11     LINE_1_TXDATA_P_13_      1385              0.58
+     T14       BP_1_TXDATA_P_12_      1345              0.58
+     T16        BP_1_TXDATA_N_7_      1242              1.74
+     T18       BP_1_TXDATA_P_10_      1297              0.58
+     T20        BP_1_TXDATA_N_9_      1290              1.74
+     T22        BP_1_TXDATA_P_9_      1289              0.58
+     T24       BP_1_TXDATA_N_10_      1298              1.74
+      U1            JTAG_CNTL_1_        74              2.99
+      U3     LINE_1_TXDATA_P_14_      1393              0.58
+      U5            JTAG_CNTL_0_        81             -0.00
+      U6     LINE_1_TXDATA_N_14_      1394              1.74
+      U7            JTAG_CNTL_2_       106              0.07
+      U8          LINE_1_RXCLK_N       802              1.22
+      U9          LINE_1_RXCLK_P       801              1.22
+     U10     LINE_1_TXDATA_N_13_      1386              1.74
+     U13              S1_N2_N_1_       217              1.38
+     U15        BP_1_TXDATA_P_7_      1241              0.58
+     U16        BP_1_TXDATA_N_3_      1162              1.74
+     U17        BP_1_TXDATA_P_3_      1161              0.58
+     U19        BP_1_TXDATA_P_6_      1233              0.59
+     U22        BP_1_TXDATA_N_6_      1234              1.74
+      V3      LINE_1_RXDATA_P_1_       777              1.22
+      V5      LINE_1_RXDATA_N_1_       778              1.22
+      V9      LINE_1_RXDATA_N_0_       770              1.22
+     V11              S2_N1_N_0_       113              1.38
+     V14              S1_N2_P_1_       233              0.96
+     V16        BP_1_TXDATA_P_2_      1153              0.58
+     V20        BP_1_TXDATA_P_1_      1145              0.58
+     V22        BP_1_TXDATA_N_1_      1146              1.74
+      W1      LINE_1_RXDATA_N_3_       794              1.22
+      W2      LINE_1_RXDATA_P_3_       793              1.22
+      W3           9186_1_N_3741      1426              0.00
+      W4      LINE_1_RXDATA_N_4_       810              1.22
+      W5      LINE_1_RXDATA_P_4_       809              1.22
+      W6      LINE_1_RXDATA_N_5_       818              1.22
+      W7      LINE_1_RXDATA_P_5_       817              1.22
+      W9      LINE_1_RXDATA_P_0_       769              1.22
+     W10             N1_S2_N_10_       274              1.38
+     W11             N1_S2_P_15_       114              0.96
+     W14              S1_N2_N_2_       361              1.38
+     W15              S1_N2_P_7_       474              0.96
+     W16        BP_1_TXDATA_N_2_      1154              1.74
+     W18             N2_S1_N_14_       282              1.38
+     W19             N2_S1_P_14_       490              0.96
+     W21             N2_S1_N_15_       498              1.37
+     W22             N2_S1_P_15_       505              0.96
+     W23            BP_1_TXCLK_N      1170              1.74
+     W24            BP_1_TXCLK_P      1169              0.59
+      Y3      LINE_1_RXDATA_N_6_       826              1.22
+      Y5      LINE_1_RXDATA_P_9_       849              1.22
+      Y7     LINE_1_RXDATA_N_11_       866              1.22
+      Y9              N1_S2_P_9_       234              0.96
+     Y11             N1_S2_N_15_       121              1.38
+     Y14              S1_N2_P_2_       369              0.96
+     Y16              S1_N2_N_8_       258              1.38
+     Y18              N2_S1_P_7_       497              0.95
+     Y20              N2_S1_N_9_       537              1.38
+     Y22             N2_S1_P_13_       417              0.96
+     Y24         BP_1_TXCLK_IN_N      1705              1.24
+                                      1761             -0.01
+                                      1777             -0.01
+
+
+
+Test Analysis for U4 (VSC9186)
+Burst duration 885.036775U sec.
+ Pin Type Nail                 Special Drives  Senses  Stuck Ats
+----------------------------------------------------------------------
+*A4    I  F929                         DL  NDH          SLF                    
+*A5    I  F929                         DL  NDH          SLF                    
+*A6    I  F953                         DL  NDH          SLF SHF                
+*A7    I  F674                         NDL NDH              SHF                
+*A8    I  F953                         DL  NDH          SLF                    
+*A9    I  F682                         NDL NDH          SLF                    
+*A10   I  F1505                        NDL NDH              SHF                
+*A11   I  F1521                        NDL NDH                                 
+*A12   I  F643                         DL  NDH          SLF SHF                
+*A13   I  F612                         NDL DH               SHF                
+*A14   I  F659                         DL  NDH          SLF                    
+*A15   I  F41                          DL  NDH                                 
+*A16   I  F1545                        NDL NDH          SLF SHF                
+*A17   I  F754                         NDL DH           SLF SHF                
+*A18   I  F10                          DL  NDH              SHF                
+*A19   I  F761                         DL  NDH          SLF                    
+*A20   I  F18                          NDL DH           SLF                    
+*A21   I  F762                         NDL NDH          SLF                    
+*AA1   I  F825                         NDL DH           SLF SHF                
+*AA2   I  F1441                        NDL DH           SLF SHF                
+*AA3   I  NOTNAILED            UNUSED                                          
+*AA4   I  F841                         NDL DH           SLF SHF                
+*AA5   I  F874                         NDL NDH          SLF SHF                
+*AA6   I  F873                         NDL DH           SLF SHF                
+*AA7   I  F1489                        NDL NDH          SLF SHF                
+*AA9   I  F130                         NDL NDH              SHF                
+*AA10  I  F241                         NDL NDH          SLF SHF                
+*AA11  I  F169                         NDL NDH          SLF SHF                
+*AA12  I  F186                         NDL DH           SLF SHF                
+*AA13  I  F145                         NDL NDH          SLF SHF                
+*AA14  I  F201                         NDL NDH          SLF SHF                
+*AA15  I  F482                         NDL NDH          SLF SHF                
+*AA18  I  F314                         DL  NDH          SLF SHF                
+*AA19  I  F546                         NDL NDH          SLF SHF                
+*AA20  I  F362                         NDL DH           SLF SHF                
+*AA21  I  F530                         NDL NDH          SLF SHF                
+*AA22  I  F514                         NDL DH           SLF SHF                
+*AA23  I  F441                         NDL NDH          SLF SHF                
+*AA24  I  F434                         NDL NDH          SLF SHF                
+*AB1   I  F858                         NDL NDH          SLF SHF                
+*AB3   I  F857                         NDL DH           SLF SHF                
+*AB7   I  F890                         NDL NDH          SLF SHF                
+*AB9   I  F177                         NDL NDH          SLF SHF                
+*AB11  I  F154                         DL  NDH          SLF SHF                
+*AB14  I  F146                         NDL NDH          SLF SHF                
+*AB16  I  F378                         NDL NDH          SLF SHF                
+*AB18  I  F513                         NDL DH           SLF SHF                
+*AB22  I  F521                         NDL NDH          SLF SHF                
+*AB24  I  F481                         DL  NDH          SLF SHF                
+*AC2   I  F1402                        NDL NDH          SLF SHF                
+*AC4   I  F842                         NDL NDH          SLF SHF                
+*AC6   I  F1482                        DL  NDH          SLF SHF                
+*AC8   I  F898                         NDL NDH          SLF SHF                
+*AC9   I  NOTNAILED            UNUSED                                          
+*AC10  I  F193                         NDL NDH          SLF SHF                
+*AC11  I  F394                         NDL NDH          SLF SHF                
+*AC12  I  F162                         NDL DH           SLF SHF                
+*AC13  I  F178                         DL  NDH          SLF SHF                
+*AC14  I  F153                         NDL DH           SLF SHF                
+*AC15  I  F457                         NDL NDH          SLF SHF                
+*AC16  I  F322                         NDL NDH          SLF SHF                
+*AC17  I  F281                         DL  NDH          SLF SHF                
+*AC19  I  F329                         NDL NDH          SLF SHF                
+*AC21  I  F385                         DL  NDH          SLF SHF                
+*AC22  I  F1698                        NDL DH           SLF SHF                
+*AC23  I  F1225                        NDL NDH          SLF SHF                
+*AD1   I  F1377                        NDL NDH          SLF SHF                
+*AD3   I  F1433                        NDL NDH          SLF SHF                
+*AD5   I  F881                         DL  NDH          SLF SHF                
+*AD9   I  F298                         NDL NDH          SLF SHF                
+*AD11  I  F450                         NDL NDH          SLF SHF                
+*AD14  I  F506                         NDL NDH          SLF SHF                
+*AD16  I  F386                         NDL NDH          SLF SHF                
+*AD20  I  F538                         NDL NDH          SLF SHF                
+*AD22  I  F1217                        NDL NDH          SLF SHF                
+*AD24  I  F1282                        NDL NDH          SLF SHF                
+*AE1   I  NOTNAILED            UNUSED                                          
+*AE2   I  F1401                        NDL NDH          SLF SHF                
+*AE4   I  F850                         NDL NDH          SLF SHF                
+*AE5   I  F833                         DL  NDH          SLF SHF                
+*AE6   I  F865                         DL  NDH          SLF SHF                
+*AE7   I  F409                         NDL NDH          SLF SHF                
+*AE8   I  F897                         DL  NDH          SLF SHF                
+*AE9   I  F209                         NDL NDH          SLF SHF                
+*AE10  I  F242                         NDL NDH          SLF SHF                
+*AE12  I  F138                         NDL NDH          SLF SHF                
+*AE13  I  NOTNAILED            UNUSED                                          
+*AE14  I  F1538                UNUSED                                          
+*AE15  I  F337                         NDL NDH          SLF SHF                
+*AE16  I  F570                         NDL NDH          SLF SHF                
+*AE17  I  F562                         NDL NDH          SLF SHF                
+*AE18  I  F313                         NDL DH           SLF SHF                
+*AE19  I  F569                         NDL NDH          SLF SHF                
+*AE20  I  F330                         NDL NDH          SLF SHF                
+*AE21  I  F561                         NDL DH           SLF SHF                
+*AE22  I  F1666                UNUSED                                          
+*AE23  I  F1226                        NDL NDH          SLF SHF                
+*AF1   I  F1378                        NDL NDH          SLF SHF                
+*AF3   I  F1457                        NDL NDH          SLF SHF                
+*AF5   I  F377                         NDL NDH          SLF SHF                
+*AF7   I  F129                         NDL NDH          SLF SHF                
+*AF9   I  F266                         NDL NDH          SLF SHF                
+*AF11  I  F346                         NDL NDH          SLF SHF                
+*AF14  I  F489                         NDL NDH          SLF SHF                
+*AF16  I  F577                         DL  NDH          SLF SHF                
+*AF18  I  F554                         NDL NDH          SLF SHF                
+*AF20  I  NOTNAILED            UNUSED                                          
+*AF22  I  F1218                        NDL NDH          SLF SHF                
+*AF24  I  F1281                        NDL NDH          SLF SHF                
+*AG1   I  F905                         NDL DH           SLF SHF                
+*AG2   I  F882                         NDL NDH          SLF SHF                
+*AG3   I  NOTNAILED            UNUSED                                          
+*AG4   I  F786                         NDL NDH          SLF SHF                
+*AG5   I  F938                         NDL DH               SHF                
+*AG6   I  F345                         NDL NDH          SLF SHF                
+*AG7   I  F122                         NDL NDH          SLF SHF                
+*AG8   I  F353                         NDL NDH          SLF SHF                
+*AG10  I  F225                         NDL NDH          SLF SHF                
+*AG11  I  F978                         DL  NDH          SLF                    
+*AG12  I  F226                         DL  NDH          SLF SHF                
+*AG13  I  F354                         NDL NDH          SLF SHF                
+*AG14  I  F985                         NDL DH                                  
+*AG15  I  NOTNAILED            UNUSED                                          
+*AG16  I  F338                         NDL NDH                                 
+*AG17  I  F473                         NDL NDH              SHF                
+*AG18  I  F289                         NDL NDH          SLF SHF                
+*AG19  I  F522                         NDL NDH          SLF                    
+*AG20  I  F1641                UNUSED                                          
+*AG21  I  F1137                        NDL NDH          SLF SHF                
+*AG22  I  NOTNAILED            UNUSED                                          
+*AG23  I  NOTNAILED            UNUSED                                          
+*AG24  I  F1673                UNUSED                                          
+*AH3   I  F785                         NDL DH                                  
+*AH5   I  F889                         NDL DH           SLF                    
+*AH7   I  NOTNAILED            UNUSED                                          
+*AH9   I  F305                         NDL NDH          SLF SHF                
+*AH11  I  F393                         NDL DH           SLF SHF                
+*AH14  I  F202                         NDL NDH              SHF                
+*AH16  I  F458                         NDL NDH          SLF SHF                
+*AH18  I  F306                         NDL NDH                                 
+*AH20  I  F545                         NDL NDH          SLF SHF                
+*AH22  I  F1138                        NDL NDH          SLF SHF                
+*AJ3   I  F587                         NDL NDH                                 
+*AJ5   I  F945                         NDL DH               SHF                
+*AJ6   I  F218                         NDL NDH              SHF                
+*AJ7   I  F962                         DL  NDH                                 
+*AJ08  I  F185                         NDL NDH          SLF                    
+*AJ9   I  F137                         NDL NDH              SHF                
+*AJ10  I  NOTNAILED            UNUSED                                          
+*AJ11  I  F265                         DL  NDH          SLF SHF                
+*AJ12  I  F402                         DL  NDH          SLF SHF                
+*AJ13  I  F426                         NDL NDH          SLF SHF                
+*AJ14  I  F257                         NDL NDH          SLF SHF                
+*AJ15  I  F273                         NDL NDH          SLF SHF                
+*AJ16  I  F449                         NDL NDH          SLF SHF                
+*AJ17  I  F425                         NDL NDH          SLF SHF                
+*AJ18  I  F1585                UNUSED                                          
+*AJ19  I  F553                         NDL NDH          SLF SHF                
+*AJ20  I  F1634                UNUSED                                          
+*AJ22  I  F1642                UNUSED                                          
+*AJ23  I  F1682                UNUSED                                          
+*AK3   I  F834                         NDL NDH          SLF SHF                
+*AK5   I  F170                         NDL NDH          SLF                    
+*AK7   I  F249                         NDL NDH              SHF                
+*AK9   I  F194                         NDL NDH              SHF                
+*AK11  I  F290                         NDL NDH          SLF SHF                
+*AK14  I  F321                         NDL DH           SLF SHF                
+*AK16  I  F370                         NDL NDH          SLF SHF                
+*AK18  I  F442                         NDL NDH          SLF SHF                
+*AK20  I  F529                         NDL NDH          SLF SHF                
+*AK22  I  F418                         DL  NDH          SLF SHF                
+*AL5   I  F930                         NDL DH           SLF SHF                
+*AL6   I  F210                         NDL NDH          SLF SHF                
+*AL7   I  F954                         NDL DH           SLF SHF                
+*AL8   I  F250                         NDL DH               SHF                
+*AL9   I  F970                         DL  NDH                                 
+*AL10  I  F161                         NDL NDH          SLF                    
+*AL11  I  F297                         NDL NDH                                 
+*AL12  I  F410                         NDL NDH          SLF SHF                
+*AL13  I  F401                         NDL DH                                  
+*AL14  I  NOTNAILED            UNUSED                                          
+*AL15  I  F465                         NDL NDH                                 
+*AL16  I  F1577                UNUSED                                          
+*AL17  I  F466                         NDL NDH                                 
+*AL18  I  F1617                UNUSED                                          
+*AL19  I  F433                         DL  NDH          SLF SHF                
+*AL20  I  F1633                UNUSED                                          
+*B3    I  F1418                        DL  NDH              SHF                
+*B5    I  F937                         DL  NDH                                 
+*B7    I  NOTNAILED            UNUSED                                          
+*B9    I  F937                         DL  NDH          SLF SHF                
+*B11   I  F953                         DL  NDH          SLF                    
+*B14   I  F635                         DL  NDH                                 
+*B16   I  F993                         DL  NDH                                 
+*B18   I  F2                           DL  NDH          SLF SHF                
+*B20   I  F57                          NDL DH           SLF SHF                
+*B22   I  F1066                        NDL NDH              SHF                
+*C3    I  NOTNAILED            UNUSED                                          
+*C4    I  F730                         NDL NDH                                 
+*C5    I  F738                         NDL NDH              SHF                
+*C6    I  F937                         DL  NDH              SHF                
+*C7    I  F665                         NDL NDH          SLF SHF                
+*C8    I  F937                         DL  NDH          SLF                    
+*C9    I  F690                         NDL NDH          SLF SHF                
+*C10   I  F937                         DL  NDH          SLF SHF                
+*C11   I  F953                         DL  NDH              SHF                
+*C12   I  F603                         NDL DH                                  
+*C13   I  F588                         DL  NDH              SHF                
+*C14   I  F644                         NDL DH                                  
+*C15   I  F97                          DL  NDH                                 
+*C16   I  F1553                        DL  NDH              SHF                
+*C17   I  F58                          NDL DH           SLF SHF                
+*C18   I  F1601                        NDL NDH          SLF                    
+*C19   I  F9                           DL  NDH                                 
+*C20   I  F33                          NDL DH           SLF SHF                
+*C21   I  NOTNAILED            UNUSED                                          
+*C22   I  F1665                UNUSED                                          
+*D1    I  F914                         DL  NDH                                 
+*D3    I  F1425                        NDL NDH          SLF SHF                
+*D5    I  F929                         DL  NDH              SHF                
+*D7    I  F697                         NDL NDH          SLF SHF                
+*D9    I  F706                         NDL NDH              SHF                
+*D11   I  F953                         DL  NDH          SLF                    
+*D14   I  F90                          DL  NDH              SHF                
+*D16   I  F1609                        NDL DH           SLF SHF                
+*D18   I  F1113                        DL  NDH              SHF                
+*D20   I  F73                          DL  NDH          SLF SHF                
+*D22   I  F1017                        NDL DH           SLF SHF                
+*E1    I  F913                 UNUSED                                          
+*E2    I  NOTNAILED            UNUSED                                          
+*E3    I  NOTNAILED            UNUSED                                          
+*E4    I  F1450                        NDL NDH                                 
+*E5    I  F737                         NDL NDH              SHF                
+*E6    I  F1497                        NDL NDH          SLF SHF                
+*E7    I  F689                         NDL NDH              SHF                
+*E8    I  F729                         NDL NDH          SLF                    
+*E9    I  F673                         NDL NDH              SHF                
+*E10   I  F937                         DL  NDH          SLF                    
+*E11   I  F595                         NDL DH           SLF SHF                
+*E12   I  F1513                        NDL NDH          SLF                    
+*E13   I  F652                         NDL DH           SLF                    
+*E14   I  F619                         DL  NDH          SLF                    
+*E15   I  F98                          NDL DH           SLF SHF                
+*E16   I  F1569                        NDL DH               SHF                
+*E17   I  F1121                        DL  NDH          SLF SHF                
+*E18   I  F1114                        DL  NDH          SLF SHF                
+*E19   I  F1610                        NDL NDH          SLF                    
+*E20   I  F34                          NDL DH           SLF SHF                
+*E21   I  F1018                        NDL NDH          SLF SHF                
+*E22   I  F1649                UNUSED                                          
+*E23   I  F620                         NDL NDH          SLF SHF                
+*E24   I  F1681                UNUSED                                          
+*F1    I  F1329                        NDL NDH          SLF SHF                
+*F3    I  F1274                        NDL NDH          SLF SHF                
+*F5    I  NOTNAILED            UNUSED                                          
+*F7    I  F1481                        NDL NDH          SLF SHF                
+*F9    I  F746                         NDL NDH          SLF SHF                
+*F11   I  NOTNAILED            UNUSED                                          
+*F14   I  F50                          NDL DH           SLF SHF                
+*F16   I  F1537                        NDL NDH          SLF                    
+*F18   I  F1129                        NDL DH               SHF                
+*F20   I  F1618                        NDL NDH          SLF SHF                
+*F22   I  F1369                        NDL NDH                                 
+*F24   I  F1306                        NDL NDH              SHF                
+*G1    I  NOTNAILED            UNUSED                                          
+*G2    I  NOTNAILED            UNUSED                                          
+*G3    I  F921                         DL  NDH                                 
+*G4    I  F1690                        NDL DH           SLF                    
+*G5    I  F1458                        NDL NDH          SLF SHF                
+*G7    I  NOTNAILED            UNUSED                                          
+*G8    I  F658                         NDL NDH          SLF                    
+*G9    I  NOTNAILED            UNUSED                                          
+*G10   I  F937                         DL  NDH          SLF SHF                
+*G11   I  F596                         DL  NDH          SLF                    
+*G12   I  F611                         NDL DH               SHF                
+*G13   I  F651                         DL  NDH          SLF SHF                
+*G14   I  F745                         NDL NDH          SLF SHF                
+*G15   I  F977                         NDL DH           SLF                    
+*G16   I  F1561                        NDL NDH              SHF                
+*G17   I  NOTNAILED            UNUSED                                          
+*G18   I  F1578                        NDL NDH          SLF SHF                
+*G19   I  F1090                        DL  NDH              SHF                
+*G20   I  F1065                        NDL DH           SLF SHF                
+*G21   I  F1713                        NDL NDH          SLF                    
+*G22   I  F1650                UNUSED                                          
+*G23   I  F1361                        NDL NDH              SHF                
+*G24   I  F994                         NDL DH                                  
+*H1    I  F1330                        NDL NDH              SHF                
+*H3    I  F1273                        NDL NDH                                 
+*H5    I  F946                         NDL DH           SLF                    
+*H7    I  F681                         NDL NDH          SLF SHF                
+*H9    I  F713                         NDL NDH              SHF                
+*H11   I  F1506                        NDL NDH          SLF SHF                
+*H14   I  F66                          NDL DH           SLF SHF                
+*H16   I  NOTNAILED            UNUSED                                          
+*H18   I  F26                          DL  NDH          SLF                    
+*H20   I  F627                         DL  NDH              SHF                
+*H22   I  F1370                        NDL NDH          SLF SHF                
+*H24   I  F1305                        NDL NDH          SLF SHF                
+*J01   I  F906                         NDL DH           SLF SHF                
+*J2    I  F1442                        NDL NDH          SLF SHF                
+*J3    I  F1193                        NDL NDH          SLF                    
+*J4    I  F1473                        DL  NDH                                 
+*J5    I  F636                         NDL DH                                  
+*J6    I  F969                         NDL DH           SLF SHF                
+*J7    I  F666                         NDL NDH          SLF                    
+*J8    I  NOTNAILED            UNUSED                                          
+*J9    I  F929                         DL  NDH              SHF                
+*J10   I  F937                         DL  NDH          SLF SHF                
+*J11   I  F953                         DL  NDH                                 
+*J12   I  F604                         DL  NDH                                 
+*J13   I  F698                         NDL NDH          SLF SHF                
+*J14   I  F705                         NDL NDH          SLF                    
+*J16   I  F1546                        NDL DH           SLF SHF                
+*J17   I  F1594                        NDL NDH          SLF SHF                
+*J18   I  F25                          DL  NDH          SLF SHF                
+*J19   I  F1097                        NDL DH           SLF                    
+*J21   I  F1074                        NDL NDH          SLF SHF                
+*J23   I  F1362                        NDL NDH          SLF                    
+*K5    I  F961                         NDL DH           SLF                    
+*K7    I  F929                         DL  NDH              SHF                
+*K9    I  F714                         NDL NDH          SLF SHF                
+*K11   I  F953                         DL  NDH              SHF                
+*K14   I  F721                         NDL NDH          SLF SHF                
+*K16   I  F1570                        DL  NDH          SLF                    
+*K18   I  F17                          NDL DH           SLF SHF                
+*K22   I  F1082                        NDL DH           SLF SHF                
+*K24   I  F1089                        NDL NDH          SLF SHF                
+*L1    I  F1210                        NDL NDH          SLF                    
+*L2    I  F1409                        NDL NDH          SLF SHF                
+*L3    I  F1434                        NDL DH           SLF                    
+*L4    I  F1449                        NDL NDH          SLF                    
+*L5    I  F922                         DL  NDH          SLF                    
+*L06   I  F1130                        NDL DH           SLF                    
+*L8    I  F1498                        NDL NDH              SHF                
+*L9    I  F722                         NDL NDH              SHF                
+*L10   I  F937                         DL  NDH                                 
+*L11   I  F937                         DL  NDH          SLF SHF                
+*L12   I  F953                         DL  NDH          SLF                    
+*L13   I  F753                         NDL DH           SLF SHF                
+*L14   I  F105                         DL  NDH              SHF                
+*L15   I  F986                         NDL DH           SLF SHF                
+*L16   I  F1554                        NDL DH               SHF                
+*L17   I  F1593                        NDL NDH          SLF                    
+*L18   I  F1098                        NDL NDH              SHF                
+*L19   I  F1105                        DL  NDH          SLF SHF                
+*L20   I  F1106                        NDL NDH              SHF                
+*L21   I  F1073                        NDL DH           SLF SHF                
+*L22   I  F1714                        NDL NDH              SHF                
+*L23   I  F1721                        DL  NDH              SHF                
+*L24   I  F1057                        DL  NDH          SLF SHF                
+*M1    I  F1194                        NDL NDH                                 
+*M3    I  F1209                        NDL NDH          SLF                    
+*M5    I  F1697                        NDL NDH          SLF SHF                
+*M9    I  F937                         DL  NDH          SLF SHF                
+*M11   I  F1514                        NDL NDH          SLF                    
+*M14   I  F65                          NDL DH           SLF SHF                
+*M16   I  F1122                        NDL DH           SLF SHF                
+*M18   I  F1729                        NDL NDH                                 
+*M20   I  F1081                        DL  NDH          SLF SHF                
+*M22   I  F1058                        NDL NDH          SLF SHF                
+*M24   I  F1034                        NDL NDH          SLF SHF                
+*N1    I  F1201                        NDL NDH          SLF SHF                
+*N2    I  F1202                        NDL NDH          SLF SHF                
+*N3    I  F1185                        NDL NDH          SLF SHF                
+*N4    I  F1186                        NDL NDH          SLF SHF                
+*N6    I  F1177                        NDL NDH                                 
+*N7    I  F1178                        NDL NDH          SLF                    
+*N9    I  F1258                        NDL NDH              SHF                
+*N10   I  F937                         DL  NDH          SLF SHF                
+*N11   I  F1530                        NDL NDH              SHF                
+*N12   I  F953                         DL  NDH              SHF                
+*N13   I  F628                         DL  NDH          SLF SHF                
+*N14   I  F1                           DL  NDH          SLF SHF                
+*N15   I  F89                          NDL DH                                  
+*N16   I  F1002                        NDL NDH                                 
+*N18   I  F1049                        NDL DH           SLF SHF                
+*N19   I  F1050                        NDL NDH          SLF                    
+*N20   I  F1041                        DL  NDH          SLF SHF                
+*N21   I  F1042                        NDL NDH          SLF                    
+*N22   I  F1706                        NDL DH               SHF                
+*N23   I  F1722                        DL  NDH              SHF                
+*N24   I  F1025                        NDL NDH          SLF SHF                
+*P3    I  F1250                        NDL NDH          SLF                    
+*P5    I  F1249                        NDL NDH                                 
+*P9    I  F1257                        NDL NDH          SLF SHF                
+*P11   I  F1522                        NDL NDH                                 
+*P14   I  F49                          NDL DH               SHF                
+*P18   I  F1009                        DL  NDH                                 
+*P20   I  F1001                        NDL DH                                  
+*P22   I  F1010                        NDL NDH              SHF                
+*R1    I  F1410                UNUSED                                          
+*R3    I  F1314                        NDL NDH          SLF                    
+*R4    I  F1466                UNUSED                                          
+*R5    I  NOTNAILED            UNUSED                                          
+*R6    I  F1313                        NDL NDH                                 
+*R7    I  F1490                UNUSED                                          
+*R8    I  F1265                        NDL NDH                                 
+*R9    I  F1266                        NDL NDH          SLF                    
+*R10   I  F1321                        NDL NDH              SHF                
+*R12   I  F1529                        NDL NDH          SLF                    
+*R13   I  F42                          DL  NDH              SHF                
+*R15   I  F1346                        NDL NDH              SHF                
+*R16   I  F1033                        NDL DH           SLF                    
+*R17   I  F1026                        NDL NDH          SLF                    
+*R18   I  F1586                UNUSED                                          
+*R19   I  F1354                        NDL NDH          SLF SHF                
+*R20   I  F1625                UNUSED                                          
+*R21   I  F1658                UNUSED                                          
+*R22   I  F1353                        NDL NDH              SHF                
+*R24   I  F1689                UNUSED                                          
+*T1    I  F1417                        NDL NDH                                 
+*T3    I  F1337                        NDL NDH          SLF SHF                
+*T5    I  F1474                        NDL NDH          SLF                    
+*T7    I  F1338                        NDL NDH                                 
+*T9    I  F1322                        NDL NDH                                 
+*T11   I  F1385                        NDL NDH                                 
+*T14   I  F1345                        NDL NDH          SLF                    
+*T16   I  F1242                        NDL NDH                                 
+*T18   I  F1297                        NDL NDH              SHF                
+*T20   I  F1290                        NDL NDH                                 
+*T22   I  F1289                        NDL NDH                                 
+*T24   I  F1298                        NDL NDH          SLF SHF                
+*U3    I  F1393                        NDL NDH          SLF SHF                
+*U4    I  F1465                UNUSED                                          
+*U6    I  F1394                        NDL NDH          SLF SHF                
+*U7    I  F106                         DL  DH               SHF                
+*U8    I  F802                         NDL NDH          SLF SHF                
+*U9    I  F801                         NDL DH                                  
+*U10   I  F1386                        NDL NDH          SLF                    
+*U12   I  NOTNAILED            UNUSED                                          
+*U13   I  F217                         NDL NDH          SLF                    
+*U15   I  F1241                        NDL NDH              SHF                
+*U16   I  F1162                        NDL NDH          SLF SHF                
+*U17   I  F1161                        NDL NDH          SLF SHF                
+*U18   I  F1562                UNUSED                                          
+*U19   I  F1233                        NDL NDH                                 
+*U20   I  F1626                UNUSED                                          
+*U21   I  F1657                UNUSED                                          
+*U22   I  F1234                        NDL NDH          SLF SHF                
+*U24   I  F1674                UNUSED                                          
+*V3    I  F777                         DL  NDH          SLF SHF                
+*V5    I  F778                         NDL NDH              SHF                
+*V9    I  F770                         NDL NDH          SLF SHF                
+*V11   I  F113                         NDL NDH          SLF SHF                
+*V14   I  F233                         NDL NDH          SLF SHF                
+*V16   I  F1153                        NDL NDH              SHF                
+*V18   I  F1602                UNUSED                                          
+*V20   I  F1145                        NDL NDH                                 
+*V22   I  F1146                        NDL NDH          SLF SHF                
+*W1    I  F794                         NDL NDH          SLF SHF                
+*W2    I  F793                         DL  NDH          SLF                    
+*W3    I  F1426                        DL  NDH          SLF SHF                
+*W4    I  F810                         NDL NDH                                 
+*W5    I  F809                         NDL DH           SLF                    
+*W6    I  F818                         NDL NDH          SLF                    
+*W7    I  F817                         DL  NDH                                 
+*W9    I  F769                         NDL DH               SHF                
+*W10   I  F274                         NDL NDH          SLF                    
+*W11   I  F114                         NDL NDH          SLF                    
+*W12   I  NOTNAILED            UNUSED                                          
+*W13   I  NOTNAILED            UNUSED                                          
+*W14   I  F361                         NDL NDH                                 
+*W15   I  F474                         NDL NDH              SHF                
+*W16   I  F1154                        NDL NDH          SLF SHF                
+*W18   I  F282                         NDL NDH                                 
+*W19   I  F490                         DL  NDH                                 
+*W21   I  F498                         NDL NDH              SHF                
+*W22   I  F505                         NDL DH           SLF SHF                
+*W23   I  F1170                        NDL NDH          SLF                    
+*W24   I  F1169                        NDL NDH          SLF                    
+*Y1    I  NOTNAILED            UNUSED                                          
+*Y3    I  F826                         NDL NDH          SLF SHF                
+*Y5    I  F849                         DL  NDH                                 
+*Y7    I  F866                         NDL NDH                                 
+*Y9    I  F234                         NDL NDH                                 
+*Y11   I  F121                         NDL NDH          SLF SHF                
+*Y14   I  F369                         NDL NDH                                 
+*Y16   I  F258                         NDL NDH          SLF SHF                
+*Y18   I  F497                         NDL DH                                  
+*Y20   I  F537                         NDL NDH          SLF SHF                
+*Y22   I  F417                         NDL DH           SLF                    
+*Y24   O  F1705                                SL  NSH                         
+
+
+
+
+Test Summary for U4 (VSC9186)
+Type                Tested Faults        Detected         Coverage
+------------------------------------------------------------------
+Inputs:  719             970               269              27.73%
+Outputs:   1               2                 1              50.00%
+--------------------------------------------------------------------
+Totals:  720             972               270              27.78%
+====================================================================
+
+
+DEVICE LABEL:   U4
+DEVICE NAME:    U4
+DEVICE TYPE:    VSC9186
+
+     Pin               Node           Nail     Max BackDrive
+
+     AE3    JTAG_FPGA_TDO_9186_1       579          50.88 mA
+     AG1           9186_1_N_8742       905         327.59 mA
+     AG5           9186_1_N_8734       938         195.82 mA
+    AG14           9186_1_N_1440       985         190.55 mA
+     AJ5           9186_1_N_8532       945         169.47 mA
+     AL5           9186_1_N_8740       930         259.07 mA
+     AL7           9186_1_N_8531       954         259.07 mA
+     G24           9186_1_N_8735       994         338.13 mA
+     H20           BP_1_REFCLK_P       627         129.94 mA
+
+LOGIC FAMILY A  MAXIMUM BACKDRIVE CURRENT: 338.13 mA
+
+C:\users\gr228x\boards\180_0653_A00\180_0653_a00.obc 10-NOV-09  11:24:21
+R74(R74)
+  EXPECTED        ACTUAL
+  1K OHMS       53.94 OHMS
+   LIMITS ARE 972.75 AND 1.02K OHMS
+LOC=R74, VAL=1.00K, TOL=1 
+
+C20(C20)
+  EXPECTED        ACTUAL
+  39P        150.81P 
+   LIMITS ARE 28.5P AND   58P 
+LOC=C20, VAL=39.00PF, TOL=5 
+
+C255(C255)
+  EXPECTED        ACTUAL
+  39P        145.77P 
+   LIMITS ARE 28.5P AND   58P 
+LOC=C255, VAL=39.00PF, TOL=5 
+
+C258(C258)
+  EXPECTED        ACTUAL
+  39P        149.95P 
+   LIMITS ARE 28.5P AND   57P 
+LOC=C258, VAL=39.00PF, TOL=5 
+
+ 
+10-NOV-09  12:01:38 
+ BOARD 0GOLDEN FAILED 
+ REL DE PROGRAMA: 100  
+ 
+10-NOV-09  12:01:38 
+ 180.0653V MODULE FAILED
+
+SER #  0GOLDEN
+R59(R59)
+  EXPECTED        ACTUAL
+  49.9        999.38 
+   LIMITS ARE 49.77 AND 51.93 
+LOC=R59, VAL=49.90R, TOL=1 
+
+ 
+10-NOV-09  12:02:06 
+ BOARD 0GOLDEN FAILED 
+ REL DE PROGRAMA: 100  
+ 
+10-NOV-09  12:02:06 
+ 180.0653V MODULE FAILED
+
+SER #  0GOLDEN

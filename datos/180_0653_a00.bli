@@ -1,0 +1,35 @@
+
+
+Batch initiated at: Mon Nov 09 18:02:10 2009
+#DIAGNOSE
+#NAME=180_0653_A00
+#DEV=sy:
+#Mode=DEBUG
+#Fixture-id=IGNORE
+#Messages=CRT
+#Digital=NAMES
+Unknown option: Digital=NAMES
+#Continue=NO
+Unknown option: Continue=NO
+#Guided=NO
+#Begin=C35
+#End=
+#Debug=ALL
+#OBC=
+#IDD=
+#SMT=
+#NCL=
+#Temp=
+Unknown option: Temp=
+#DBT=
+#Bscan_Fails=DEFAULT
+Unknown option: Bscan_Fails=DEFAULT
+#Adaptive=YES
+Unknown option: Adaptive=YES
+#Graphical=YES
+Unknown option: Graphical=YES
+End of batch input file:  sy:180_0653_a00.bch
+
+
+Batch completion at: Mon Nov 09 18:02:10 2009
+
